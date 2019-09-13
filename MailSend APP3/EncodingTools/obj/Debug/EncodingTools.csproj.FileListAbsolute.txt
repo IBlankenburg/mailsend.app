@@ -1,0 +1,14 @@
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\bin\Debug\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\bin\Debug\EncodingTools.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\obj\Debug\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\obj\Debug\EncodingTools.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\EncodingTools\bin\Debug\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\EncodingTools\bin\Debug\EncodingTools.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\EncodingTools\obj\Debug\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\EncodingTools\obj\Debug\EncodingTools.pdb
+C:\MailSend\trunk\EncodingTools\bin\Debug\EncodingTools.dll
+C:\MailSend\trunk\EncodingTools\bin\Debug\EncodingTools.pdb
+C:\MailSend\trunk\EncodingTools\obj\Debug\ResolveAssemblyReference.cache
+C:\MailSend\trunk\EncodingTools\obj\Debug\EncodingTools.dll
+C:\MailSend\trunk\EncodingTools\obj\Debug\EncodingTools.pdb

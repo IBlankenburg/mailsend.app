@@ -1,0 +1,8 @@
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\bin\Debug\MailConfig.xsd
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\bin\Debug\MailSendWPF.Interfaces.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\bin\Debug\MailSendWPF.Interfaces.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\bin\Debug\MailSendWPF.Configuration.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\bin\Debug\MailSendWPF.Configuration.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\obj\Debug\MailSendWPF.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\obj\Debug\MailSendWPF.Interfaces.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Interfaces\obj\Debug\MailSendWPF.Interfaces.pdb

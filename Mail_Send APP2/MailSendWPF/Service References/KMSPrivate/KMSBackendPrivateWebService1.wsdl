@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ax21="http://def.backend.ws.backend.kms.group.de/xsd" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://def.backend.ws.backend.kms.group.de" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://def.backend.ws.backend.kms.group.de" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:ax22="http://def.backend.ws.backend.kms.group.de/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://def.backend.ws.backend.kms.group.de">
+      <xs:import namespace="http://def.backend.ws.backend.kms.group.de/xsd" />
+      <xs:element name="getCertificatesList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="tenantGuid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCertificatesListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:ArrayOfCertificateInfos" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="downloadCertificates">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="tenantGuid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="hashIds" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="downloadCertificatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:ArrayOfKeys" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAllPrivateKeysForEmail">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="emailAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAllPrivateKeysForEmailResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:ArrayOfKeys" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getServerVersionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:KMSVersion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getOrCreatePrivateKey">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="emailAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="data" nillable="true" type="ax22:CertificateData" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getOrCreatePrivateKeyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getOrCreatePrivateKeyAdvanced">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="emailAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="keys" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="values" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getOrCreatePrivateKeyAdvancedResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPrivateKey">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="emailAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPrivateKeyResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPrivateKeyBySerial">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="issuerDN" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="serial" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPrivateKeyBySerialResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPrivateKeyFromEnvelope">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="envelopData" nillable="true" type="xs:base64Binary" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPrivateKeyFromEnvelopeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="revokeCertificate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="issuerDN" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="serialNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="emailAddress" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="revokeCertificateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax22:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://def.backend.ws.backend.kms.group.de/xsd">
+      <xs:complexType name="ArrayOfCertificateInfos">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="keysCount" type="xs:long" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="list" nillable="true" type="ax21:CertificateInfoResult" />
+          <xs:element minOccurs="0" name="ret" nillable="true" type="ax21:ReturnStatus" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CertificateInfoResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="certificateType" type="xs:int" />
+          <xs:element minOccurs="0" name="dataType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="hashId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ret" nillable="true" type="ax21:ReturnStatus" />
+          <xs:element minOccurs="0" name="trustStatus" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ReturnStatus">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ArrayOfKeys">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="keysCount" type="xs:long" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="list" nillable="true" type="ax21:KeyResult" />
+          <xs:element minOccurs="0" name="ret" nillable="true" type="ax21:ReturnStatus" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="KeyResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="data" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="dataType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="keyPassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ret" nillable="true" type="ax21:ReturnStatus" />
+          <xs:element minOccurs="0" name="trustStatus" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="KMSVersion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="build" type="xs:int" />
+          <xs:element minOccurs="0" name="majorVersion" type="xs:int" />
+          <xs:element minOccurs="0" name="minorVersion" type="xs:int" />
+          <xs:element minOccurs="0" name="os" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="revision" type="xs:int" />
+          <xs:element minOccurs="0" name="svnRevision" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CertificateData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="challenge" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="comment" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="country" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="keys" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="locality" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="organization" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="organizationUnit" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="state" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="title" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="values" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="downloadCertificatesRequest">
+    <wsdl:part name="parameters" element="xsd:downloadCertificates" />
+  </wsdl:message>
+  <wsdl:message name="getPrivateKeyBySerialRequest">
+    <wsdl:part name="parameters" element="xsd:getPrivateKeyBySerial" />
+  </wsdl:message>
+  <wsdl:message name="getServerVersionRequest" />
+  <wsdl:message name="getPrivateKeyBySerialResponse">
+    <wsdl:part name="parameters" element="xsd:getPrivateKeyBySerialResponse" />
+  </wsdl:message>
+  <wsdl:message name="getOrCreatePrivateKeyAdvancedResponse">
+    <wsdl:part name="parameters" element="xsd:getOrCreatePrivateKeyAdvancedResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllPrivateKeysForEmailResponse">
+    <wsdl:part name="parameters" element="xsd:getAllPrivateKeysForEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="getOrCreatePrivateKeyRequest">
+    <wsdl:part name="parameters" element="xsd:getOrCreatePrivateKey" />
+  </wsdl:message>
+  <wsdl:message name="getPrivateKeyResponse">
+    <wsdl:part name="parameters" element="xsd:getPrivateKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllPrivateKeysForEmailRequest">
+    <wsdl:part name="parameters" element="xsd:getAllPrivateKeysForEmail" />
+  </wsdl:message>
+  <wsdl:message name="downloadCertificatesResponse">
+    <wsdl:part name="parameters" element="xsd:downloadCertificatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getOrCreatePrivateKeyResponse">
+    <wsdl:part name="parameters" element="xsd:getOrCreatePrivateKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="revokeCertificateResponse">
+    <wsdl:part name="parameters" element="xsd:revokeCertificateResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPrivateKeyRequest">
+    <wsdl:part name="parameters" element="xsd:getPrivateKey" />
+  </wsdl:message>
+  <wsdl:message name="revokeCertificateRequest">
+    <wsdl:part name="parameters" element="xsd:revokeCertificate" />
+  </wsdl:message>
+  <wsdl:message name="getPrivateKeyFromEnvelopeResponse">
+    <wsdl:part name="parameters" element="xsd:getPrivateKeyFromEnvelopeResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCertificatesListResponse">
+    <wsdl:part name="parameters" element="xsd:getCertificatesListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCertificatesListRequest">
+    <wsdl:part name="parameters" element="xsd:getCertificatesList" />
+  </wsdl:message>
+  <wsdl:message name="getServerVersionResponse">
+    <wsdl:part name="parameters" element="xsd:getServerVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getOrCreatePrivateKeyAdvancedRequest">
+    <wsdl:part name="parameters" element="xsd:getOrCreatePrivateKeyAdvanced" />
+  </wsdl:message>
+  <wsdl:message name="getPrivateKeyFromEnvelopeRequest">
+    <wsdl:part name="parameters" element="xsd:getPrivateKeyFromEnvelope" />
+  </wsdl:message>
+  <wsdl:portType name="KMSBackendPrivateWebServicePortType">
+    <wsdl:operation name="getServerVersion">
+      <wsdl:input wsaw:Action="urn:getServerVersion" message="xsd:getServerVersionRequest" />
+      <wsdl:output wsaw:Action="urn:getServerVersionResponse" message="xsd:getServerVersionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKey">
+      <wsdl:input wsaw:Action="urn:getOrCreatePrivateKey" message="xsd:getOrCreatePrivateKeyRequest" />
+      <wsdl:output wsaw:Action="urn:getOrCreatePrivateKeyResponse" message="xsd:getOrCreatePrivateKeyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyBySerial">
+      <wsdl:input wsaw:Action="urn:getPrivateKeyBySerial" message="xsd:getPrivateKeyBySerialRequest" />
+      <wsdl:output wsaw:Action="urn:getPrivateKeyBySerialResponse" message="xsd:getPrivateKeyBySerialResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKeyAdvanced">
+      <wsdl:input wsaw:Action="urn:getOrCreatePrivateKeyAdvanced" message="xsd:getOrCreatePrivateKeyAdvancedRequest" />
+      <wsdl:output wsaw:Action="urn:getOrCreatePrivateKeyAdvancedResponse" message="xsd:getOrCreatePrivateKeyAdvancedResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="downloadCertificates">
+      <wsdl:input wsaw:Action="urn:downloadCertificates" message="xsd:downloadCertificatesRequest" />
+      <wsdl:output wsaw:Action="urn:downloadCertificatesResponse" message="xsd:downloadCertificatesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCertificatesList">
+      <wsdl:input wsaw:Action="urn:getCertificatesList" message="xsd:getCertificatesListRequest" />
+      <wsdl:output wsaw:Action="urn:getCertificatesListResponse" message="xsd:getCertificatesListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="revokeCertificate">
+      <wsdl:input wsaw:Action="urn:revokeCertificate" message="xsd:revokeCertificateRequest" />
+      <wsdl:output wsaw:Action="urn:revokeCertificateResponse" message="xsd:revokeCertificateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllPrivateKeysForEmail">
+      <wsdl:input wsaw:Action="urn:getAllPrivateKeysForEmail" message="xsd:getAllPrivateKeysForEmailRequest" />
+      <wsdl:output wsaw:Action="urn:getAllPrivateKeysForEmailResponse" message="xsd:getAllPrivateKeysForEmailResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKey">
+      <wsdl:input wsaw:Action="urn:getPrivateKey" message="xsd:getPrivateKeyRequest" />
+      <wsdl:output wsaw:Action="urn:getPrivateKeyResponse" message="xsd:getPrivateKeyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyFromEnvelope">
+      <wsdl:input wsaw:Action="urn:getPrivateKeyFromEnvelope" message="xsd:getPrivateKeyFromEnvelopeRequest" />
+      <wsdl:output wsaw:Action="urn:getPrivateKeyFromEnvelopeResponse" message="xsd:getPrivateKeyFromEnvelopeResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="KMSBackendPrivateWebServiceSoap12Binding" type="xsd:KMSBackendPrivateWebServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getServerVersion">
+      <soap12:operation soapAction="urn:getServerVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKey">
+      <soap12:operation soapAction="urn:getOrCreatePrivateKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyBySerial">
+      <soap12:operation soapAction="urn:getPrivateKeyBySerial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="downloadCertificates">
+      <soap12:operation soapAction="urn:downloadCertificates" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKeyAdvanced">
+      <soap12:operation soapAction="urn:getOrCreatePrivateKeyAdvanced" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCertificatesList">
+      <soap12:operation soapAction="urn:getCertificatesList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="revokeCertificate">
+      <soap12:operation soapAction="urn:revokeCertificate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllPrivateKeysForEmail">
+      <soap12:operation soapAction="urn:getAllPrivateKeysForEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKey">
+      <soap12:operation soapAction="urn:getPrivateKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyFromEnvelope">
+      <soap12:operation soapAction="urn:getPrivateKeyFromEnvelope" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="KMSBackendPrivateWebServiceHttpBinding" type="xsd:KMSBackendPrivateWebServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getServerVersion">
+      <http:operation location="KMSBackendPrivateWebService/getServerVersion" />
+      <wsdl:input>
+        <mime:content part="getServerVersion" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getServerVersion" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKey">
+      <http:operation location="KMSBackendPrivateWebService/getOrCreatePrivateKey" />
+      <wsdl:input>
+        <mime:content part="getOrCreatePrivateKey" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getOrCreatePrivateKey" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyBySerial">
+      <http:operation location="KMSBackendPrivateWebService/getPrivateKeyBySerial" />
+      <wsdl:input>
+        <mime:content part="getPrivateKeyBySerial" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getPrivateKeyBySerial" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="downloadCertificates">
+      <http:operation location="KMSBackendPrivateWebService/downloadCertificates" />
+      <wsdl:input>
+        <mime:content part="downloadCertificates" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="downloadCertificates" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKeyAdvanced">
+      <http:operation location="KMSBackendPrivateWebService/getOrCreatePrivateKeyAdvanced" />
+      <wsdl:input>
+        <mime:content part="getOrCreatePrivateKeyAdvanced" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getOrCreatePrivateKeyAdvanced" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCertificatesList">
+      <http:operation location="KMSBackendPrivateWebService/getCertificatesList" />
+      <wsdl:input>
+        <mime:content part="getCertificatesList" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getCertificatesList" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="revokeCertificate">
+      <http:operation location="KMSBackendPrivateWebService/revokeCertificate" />
+      <wsdl:input>
+        <mime:content part="revokeCertificate" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="revokeCertificate" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllPrivateKeysForEmail">
+      <http:operation location="KMSBackendPrivateWebService/getAllPrivateKeysForEmail" />
+      <wsdl:input>
+        <mime:content part="getAllPrivateKeysForEmail" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getAllPrivateKeysForEmail" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKey">
+      <http:operation location="KMSBackendPrivateWebService/getPrivateKey" />
+      <wsdl:input>
+        <mime:content part="getPrivateKey" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getPrivateKey" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyFromEnvelope">
+      <http:operation location="KMSBackendPrivateWebService/getPrivateKeyFromEnvelope" />
+      <wsdl:input>
+        <mime:content part="getPrivateKeyFromEnvelope" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getPrivateKeyFromEnvelope" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="KMSBackendPrivateWebServiceSoap11Binding" type="xsd:KMSBackendPrivateWebServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getServerVersion">
+      <soap:operation soapAction="urn:getServerVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKey">
+      <soap:operation soapAction="urn:getOrCreatePrivateKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyBySerial">
+      <soap:operation soapAction="urn:getPrivateKeyBySerial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="downloadCertificates">
+      <soap:operation soapAction="urn:downloadCertificates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOrCreatePrivateKeyAdvanced">
+      <soap:operation soapAction="urn:getOrCreatePrivateKeyAdvanced" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCertificatesList">
+      <soap:operation soapAction="urn:getCertificatesList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="revokeCertificate">
+      <soap:operation soapAction="urn:revokeCertificate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllPrivateKeysForEmail">
+      <soap:operation soapAction="urn:getAllPrivateKeysForEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKey">
+      <soap:operation soapAction="urn:getPrivateKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPrivateKeyFromEnvelope">
+      <soap:operation soapAction="urn:getPrivateKeyFromEnvelope" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="KMSBackendPrivateWebService">
+    <wsdl:port name="KMSBackendPrivateWebServiceHttpEndpoint" binding="xsd:KMSBackendPrivateWebServiceHttpBinding">
+      <http:address location="http://172.30.200.143:8080/km.backend/services/KMSBackendPrivateWebService/" />
+    </wsdl:port>
+    <wsdl:port name="KMSBackendPrivateWebServiceHttpSoap12Endpoint" binding="xsd:KMSBackendPrivateWebServiceSoap12Binding">
+      <soap12:address location="http://172.30.200.143:8080/km.backend/services/KMSBackendPrivateWebService/" />
+    </wsdl:port>
+    <wsdl:port name="KMSBackendPrivateWebServiceHttpSoap11Endpoint" binding="xsd:KMSBackendPrivateWebServiceSoap11Binding">
+      <soap:address location="http://172.30.200.143:8080/km.backend/services/KMSBackendPrivateWebService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

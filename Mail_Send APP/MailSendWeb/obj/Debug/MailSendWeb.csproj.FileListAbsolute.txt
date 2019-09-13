@@ -1,0 +1,41 @@
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\bin\xsd\MailConfig.xsd
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\bin\MailSendWeb.dll
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\bin\MailSendWeb.pdb
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\bin\MailSendWPF.exe
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\bin\log4net.dll
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\bin\WPF Dialogs.dll
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\bin\MailSendWPF.pdb
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\obj\Debug\MailSendWeb.dll
+C:\Users\jhaendle\documents\visual studio 2010\Projects\MailSend\MailSendWeb\obj\Debug\MailSendWeb.pdb
+C:\unfuddle\MailSendWeb\bin\xsd\MailConfig.xsd
+C:\unfuddle\MailSendWeb\bin\App_GlobalResources\page_add.png
+C:\unfuddle\MailSendWeb\bin\MailSendWeb.dll
+C:\unfuddle\MailSendWeb\bin\MailSendWeb.pdb
+C:\unfuddle\MailSendWeb\bin\MailSendWPF.exe
+C:\unfuddle\MailSendWeb\bin\log4net.dll
+C:\unfuddle\MailSendWeb\bin\WPF Dialogs.dll
+C:\unfuddle\MailSendWeb\bin\MailSendWPF.pdb
+C:\unfuddle\MailSendWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\unfuddle\MailSendWeb\obj\Debug\MailSendWeb.dll
+C:\unfuddle\MailSendWeb\obj\Debug\MailSendWeb.pdb
+C:\Downloads\MailSendDev\MailSendWeb\bin\xsd\MailConfig.xsd
+C:\Downloads\MailSendDev\MailSendWeb\bin\App_GlobalResources\page_add.png
+C:\Downloads\MailSendDev\MailSendWeb\bin\MailSendWPF.exe
+C:\Downloads\MailSendDev\MailSendWeb\bin\log4net.dll
+C:\Downloads\MailSendDev\MailSendWeb\bin\WPF Dialogs.dll
+C:\Downloads\MailSendDev\MailSendWeb\bin\MailSendWPF.pdb
+C:\Downloads\MailSendDev\MailSendWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Downloads\MailSendDev\MailSendWeb\obj\Debug\MailSendWeb.dll
+C:\Downloads\MailSendDev\MailSendWeb\obj\Debug\MailSendWeb.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\xsd\MailConfig.xsd
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\App_GlobalResources\page_add.png
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\MailSendWPF.exe
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\log4net.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\WPF Dialogs.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\MailSendWPF.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\obj\Debug\MailSendWeb.csprojResolveAssemblyReference.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\obj\Debug\MailSendWeb.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\obj\Debug\MailSendWeb.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\MailSendWeb.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWeb\bin\MailSendWeb.pdb

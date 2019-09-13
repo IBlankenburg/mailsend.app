@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Doc>
+	<Item name="PollDataSet">
+		<summary>The <see cref="PollDataSet"/> class is a strongly-typed <see cref="System.Data.DataSet"/> which is customized to hold data for the MetaBuidlers Polling feature.</summary>
+		<remarks>
+			<para>
+			The <see cref="PollDataSet" /> class is used by the <see cref="Polling"/> class as the return type in the methods which select polling data.
+			</para>
+			<para>
+			The <see cref="DataSet"/> has three <see cref="DataTable" /> properties, <see cref="Polls"/>, <see cref="Options"/>, and <see cref="Votes"/>.
+			</para>
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollDataSet()">
+		<summary>Creates a new instance of the <see cref="PollDataSet"/> class.</summary>
+	</Item>
+	<Item name="PollDataSet.Polls">
+		<summary>Gets a <see cref="PollDataSet.PollsDataTable" /> which holds the current <see cref="PollDataSet.PollsRow" /> data items.</summary>
+	</Item>
+	<Item name="PollDataSet.Options">
+		<summary>Gets a <see cref="PollDataSet.OptionsDataTable" /> which holds the current <see cref="PollDataSet.OptionsRow" /> data items.</summary>
+	</Item>
+	<Item name="PollDataSet.Votes">
+		<summary>Gets a <see cref="PollDataSet.VotesDataTable" /> which holds the current <see cref="PollDataSet.VotesRow" /> data items.</summary>
+	</Item>
+
+	<Item name="PollDataSet.OptionsDataTable">
+		<summary>Represents a collection of options that are attached to a poll.</summary>
+	</Item>
+<!--
+	<Item name="PollDataSet.OptionsDataTable.AddOptionsRow">
+		<summary>Adds the given <see cref="PollDataSet.OptionsRow"/> to the table.</summary>
+	</Item>
+	<Item name="PollDataSet.OptionsDataTable.AddOptionsRow2">
+		<summary>Adds a <see cref="PollDataSet.OptionsRow/> with the given properties to the table.</summary>
+	</Item>
+	<Item name="PollDataSet.OptionsDataTable.FindByOptionID">
+		<summary>Finds the <see cref="PollDataSet.OptionsRow"/> which has the given OptionID.</summary>
+	</Item>
+	<Item name="PollDataSet.OptionsDataTable.RemoveOptionsRow" >
+		<summary>Removes the given <see cref="PollDataSet.OptionsRow" /> from the table.</summary>
+	</Item>
+-->
+
+	<Item name="PollDataSet.OptionsRow" >
+		<summary>A single poll option item.</summary>
+		<remarks>
+			A single poll typically has a few options. These options are then selected, and the user votes on the options they chose.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.OptionsRow.OptionID">
+		<summary>Gets or sets the OptionID of the option.</summary>
+		<remarks>
+			This value is the identifier used by the <see cref="Polling"/> class in the methods that manage poll options.
+			Setting this property will not directly change the option's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.OptionsRow.PollID">
+		<summary>Gets or sets the ID of the poll which holds this option.</summary>
+		<remarks>
+			This value is the identifier used by the <see cref="Polling"/> class in the methods that manage polls.
+			Setting this proprty will not directly change the option's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.OptionsRow.Text">
+		<summary>Gets or sets the text of the option.</summary>
+		<remarks>
+			Setting this proprty will not directly change the option's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.OptionsRow.DisplayOrder">
+		<summary>Gets or sets a value indicating the default order in which options should be displayed in a user interface.</summary>
+		<remarks>
+			Options with lower DisplayOrder values will be displayed ahead of higher values.
+			Setting this proprty will not directly change the option's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.OptionsRow.VoteAmount">
+		<summary>Gets or sets the number of votes which that option has received.</summary>
+		<remarks>
+			Setting this proprty will not directly change the option's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.OptionsRow.PollsRow">
+		<summary>Gets or sets the <see cref="PollDataSet.PollsRow"/> which is the parent of this option.</summary>
+		<remarks>
+			This property is related to the value of the <see cref="PollDataSet.OptionsRow.PollID"/> property.
+			Setting this proprty will not directly change the option's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.OptionsRow.GetVotesRows">
+		<summary>Retrieves the <see cref="PollDataSet.VotesRow"/> items which are children of this option.</summary>
+		<remarks>
+			Setting this proprty will not directly change the option's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	
+	<Item name="PollDataSet.PollsDataTable">
+		<summary>Represents a collection of polls.</summary>
+	</Item>
+
+	<Item name="PollDataSet.PollsRow" >
+		<summary>A single poll item.</summary>
+		<remarks>
+			A single poll typically has a few options. These options are then selected, and the user votes on the options they chose.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.PollID">
+		<summary>Gets or sets ID of the poll.</summary>
+		<remarks>
+			This value is the identifier used by the <see cref="Polling"/> class in the methods that manage polls.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.Text">
+		<summary>Gets or sets the text of the poll.</summary>
+		<remarks>
+			The text is usually in the form of a question.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.StartDate">
+		<summary>Gets or sets the date and time on which the poll should start.</summary>
+		<remarks>
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.VoteMode">
+		<summary>Gets or sets the voting mode for the poll.</summary>
+		<remarks>
+			Valid values for this property are the string representations of the values in the <see cref="VoteSelectionMode" /> enum.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.Enabled">
+		<summary>Gets or sets if the poll is enabled for display and voting.</summary>
+		<remarks>
+			When Enabled is set to false, the built in providers won't return it from a call to <see cref="Polling.GetCurrentPoll"/>.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.AllowWriteIns">
+		<summary>Gets or sets if the poll allows write-in votes.</summary>
+		<remarks>
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.Category">
+		<summary>Gets or sets the category of the poll.</summary>
+		<remarks>
+			Setting a poll's category allows for polls to be grouped when selecting them.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.PollsRow.GetOptionsRows">
+		<summary>Retrieves the options that are associated with this poll.</summary>
+	</Item>
+	<Item name="PollDataSet.PollsRow.GetVotesRows">
+		<summary>Retrieves the votes that have been cast on this poll.</summary>
+	</Item>
+
+
+	<Item name="PollDataSet.VotesDataTable" >
+		<summary>Represents a collection of votes on a poll.</summary>
+	</Item>
+	<Item name="PollDataSet.VotesRow">
+		<summary>A single vote item.</summary>
+	</Item>
+	<Item name="PollDataSet.VotesRow.VoteID">
+		<summary>The ID of the vote.</summary>
+		<remarks>
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.Member">
+		<summary>Gets or sets the name of the member who cast the vote.</summary>
+		<remarks>
+			This value comes from the user name as declared on the <see cref="System.Web.HttpRequest"/> class's User property.
+			When a user votes without being authenticated, the member value will be null.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.PollID">
+		<summary>Gets or sets the ID of the poll on which this vote was cast.</summary>
+		<remarks>
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.OptionID">
+		<summary>Gets or sets the ID of the option for which this vote was cast.</summary>
+		<remarks>
+			When the vote is a write-in vote, this property will be null, and the <see cref="WriteInText"/> property will be filled.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.WriteInText">
+		<summary>Gets or sets the text of the write-in vote.</summary>
+		<remarks>
+			This property is only filled when the vote is a write-in vote. Otherwise, the <see cref="OptionID"/> property will be filled.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.DateVoted">
+		<summary>Gets or sets the date on which the vote was cast.</summary>
+		<remarks>
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.VoteRating">
+		<summary>Gets or sets the rating multiplier for the vote</summary>
+		<remarks>
+			<para>When the Poll's VoteMode property is set to Rating, then this field will hold the rating.
+			Otherwise this property will always be "1".</para>
+			<para>Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.</para>
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.IPAddress">
+		<summary>Gets or sets the IP Address of the user who cast the vote.</summary>
+		<remarks>
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.PollsRow">
+		<summary>Gets or sets the <see cref="PollDataSet.PollsRow"/> which is the parent of this vote.</summary>
+		<remarks>
+			This property is related to the value of the <see cref="PollDataSet.VotesRow.PollID"/> property.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.OptionsRow">
+		<summary>Gets or sets the <see cref="PollDataSet.OptionsRow"/> which is the parent of this vote.</summary>
+		<remarks>
+			This property is related to the value of the <see cref="PollDataSet.VotesRow.OptionID"/> property.
+			Setting this proprty will not directly change the poll's value in the polling provider's datastore.
+			This property should be treated as though it were read-only.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.IsMemberNull">
+		<summary>Determines if the Member property is null.</summary>
+	</Item>
+	<Item name="PollDataSet.VotesRow.SetMemberNull">
+		<summary>Sets the Member property to null.</summary>
+		<remarks>
+			Calling this method will not directly change the value in the polling provider's datastore.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.IsOptionIDNull">
+		<summary>Determines if the OptionID property is null.</summary>
+	</Item>
+	<Item name="PollDataSet.VotesRow.SetOptionIDNull">
+		<summary>Sets the Member OptionID to null.</summary>
+		<remarks>
+			Calling this method will not directly change the value in the polling provider's datastore.
+		</remarks>
+	</Item>
+	<Item name="PollDataSet.VotesRow.IsWriteInTextNull">
+		<summary>Determines if the WriteInText property is null.</summary>
+	</Item>
+	<Item name="PollDataSet.VotesRow.SetWriteInTextNull">
+		<summary>Sets the Member WriteInText to null.</summary>
+		<remarks>
+			Calling this method will not directly change the value in the polling provider's datastore.
+		</remarks>
+	</Item>
+</Doc>

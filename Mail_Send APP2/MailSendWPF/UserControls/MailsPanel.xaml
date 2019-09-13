@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="MailSendWPF.UserControls.MailsPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:MailSendWPF.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded" Initialized="UserControl_Initialized">
+    <UserControl.Resources>
+        <local:StringConverter x:Key="stringConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <!-- +50-->
+        <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Vertical" MaxWidth="340" MinWidth="340">
+            <GroupBox Height="190" Header="Mails:">
+                <StackPanel Orientation="Vertical">
+            <!--Label HorizontalAlignment="Left" >Mails:</Label-->
+            <ListBox HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Visible" VerticalContentAlignment="Stretch"  Name="lstMails" AllowDrop="True" SelectionMode="Extended" ItemsSource="{Binding NotifyOnSourceUpdated=True, NotifyOnTargetUpdated=True, Converter={StaticResource stringConverter}, Path=MailDir, Mode=TwoWay}" DisplayMemberPath="Item" Height="140" MinWidth="330" MaxWidth="330" HorizontalAlignment="Left" Drop="lstMails_Drop" DragEnter="lstMails_DragEnter" KeyDown="lstMails_KeyDown" SourceUpdated="lstMails_SourceUpdated" TargetUpdated="lstMails_TargetUpdated" MouseDoubleClick="lstMails_MouseDoubleClick">
+            </ListBox>
+            <!--StackPanel Orientation="Horizontal" -->
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Grid.Row="0" Name="addFile" Click="addFile_Click">
+                            <Image Source="/MailSendWPF;component/images/page_add.png"></Image>
+                        </Button>
+                <Button Grid.Column="1" Grid.Row="0"  Name="addFolder" Click="addFolder_Click">
+                            <Image Source="/MailSendWPF;component/images/folder_add.png"></Image>
+                        </Button>
+                <CheckBox  Grid.Column="2" Grid.Row="0"  Name="chkRecursive" VerticalAlignment="Center" HorizontalAlignment="Left" IsChecked="{Binding Path=Recursive, Mode=TwoWay}" Click="chkRecursive_Click">Recursive</CheckBox>
+                <Border  Grid.Column="3" Grid.Row="0" HorizontalAlignment="Right"  BorderBrush="Black" BorderThickness="1">
+                            <TextBox IsReadOnly="True" Width="Auto" Name="txtValMails" Background="WhiteSmoke" TextAlignment="Right" Text="{Binding Path=MailsCount, Mode=TwoWay}" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBox>
+                </Border>
+            </Grid>
+                </StackPanel>
+            </GroupBox>
+            <!--/StackPanel-->
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

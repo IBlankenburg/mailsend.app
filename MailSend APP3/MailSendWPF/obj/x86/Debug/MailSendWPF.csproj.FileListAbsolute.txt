@@ -1,0 +1,174 @@
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\xsd\MailConfig.xsd
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\MailSendWPF.exe.config
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\MailSendWPF.exe
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\MailSendWPF.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\log4net.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\Window1.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\App.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.lref
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\Window1.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MailSendWPF.g.resources
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MailSendWPF.Properties.Resources.resources
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MailSendWPF.exe
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\MailSendWPF.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\WPF Dialogs.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\bin\Debug\EncodingTools.pdb
+C:\unfuddle\MailSendWPF\bin\Debug\xsd\MailConfig.xsd
+C:\unfuddle\MailSendWPF\bin\Debug\MailSendWPF.exe.config
+C:\unfuddle\MailSendWPF\bin\Debug\MailSendWPF.exe
+C:\unfuddle\MailSendWPF\bin\Debug\MailSendWPF.pdb
+C:\unfuddle\MailSendWPF\bin\Debug\EncodingTools.dll
+C:\unfuddle\MailSendWPF\bin\Debug\log4net.dll
+C:\unfuddle\MailSendWPF\bin\Debug\WPF Dialogs.dll
+C:\unfuddle\MailSendWPF\bin\Debug\EncodingTools.pdb
+C:\unfuddle\MailSendWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MainWindow.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\Window1.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\App.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.cache
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.lref
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MainWindow.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\Window1.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.baml
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MailSendWPF.g.resources
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MailSendWPF.Properties.Resources.resources
+C:\unfuddle\MailSendWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\unfuddle\MailSendWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MailSendWPF.exe
+C:\unfuddle\MailSendWPF\obj\x86\Debug\MailSendWPF.pdb
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\xsd\MailConfig.xsd
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\MailSendWPF.exe.config
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\MailSendWPF.exe
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\MailSendWPF.pdb
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\EncodingTools.dll
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\log4net.dll
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\WPF Dialogs.dll
+C:\Downloads\MailSendDev\MailSendWPF\bin\Debug\EncodingTools.pdb
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\Window1.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\App.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.cache
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.lref
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MainWindow.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\Window1.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.baml
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MailSendWPF.g.resources
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MailSendWPF.Properties.Resources.resources
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MailSendWPF.exe
+C:\Downloads\MailSendDev\MailSendWPF\obj\x86\Debug\MailSendWPF.pdb
+C:\MailSend\trunk\MailSendWPF\bin\Debug\MailSendWPF.exe.config
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.exe
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.pdb
+C:\MailSend\trunk\MailSendWPF\bin\Debug\xsd\MailConfig.xsd
+C:\MailSend\trunk\MailSendWPF\bin\Debug\MailSendWPF.exe
+C:\MailSend\trunk\MailSendWPF\bin\Debug\MailSendWPF.pdb
+C:\MailSend\trunk\MailSendWPF\bin\Debug\EncodingTools.dll
+C:\MailSend\trunk\MailSendWPF\bin\Debug\log4net.dll
+C:\MailSend\trunk\MailSendWPF\bin\Debug\WPF Dialogs.dll
+C:\MailSend\trunk\MailSendWPF\bin\Debug\EncodingTools.pdb
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MainWindow.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\Window1.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\App.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.cache
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.lref
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MainWindow.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\Window1.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.baml
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.g.resources
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.Properties.Resources.resources
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\MailSend\trunk\MailSendWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\MailSendWPF.exe.config
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.exe
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\xsd\MailConfig.xsd
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\MailSendWPF.exe
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\MailSendWPF.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\log4net.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\WPF Dialogs.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\bin\Debug\EncodingTools.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.csprojResolveAssemblyReference.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\StartMailPanel.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\Window1.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\Windows\MailSendWindow.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\App.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF_MarkupCompile.lref
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\MailsPanel.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\ResToMailPanel.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\UserControls\ServerControl.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\Window1.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\Windows\OptionWindow.baml
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.g.resources
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.Properties.Resources.resources
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\obj\x86\Debug\MailSendWPF.csproj.GenerateResource.Cache

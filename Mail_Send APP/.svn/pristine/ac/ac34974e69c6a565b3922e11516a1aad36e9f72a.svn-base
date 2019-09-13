@@ -1,0 +1,20 @@
+﻿MailSendWPF
+
+
+winexe
+C#
+.cs
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\obj\x64\Debug\
+MailSendWPF
+none
+false
+
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\MailSendWPF\App.xaml
+81429793365
+
+37-1734972586
+191450712275
+MainWindow.xaml;UserControls\MailsPanel.xaml;UserControls\ResToMailPanel.xaml;UserControls\ServerControl.xaml;UserControls\StartMailPanel.xaml;Window1.xaml;Windows\OptionWindow.xaml;Windows\MailSendWindow.xaml;
+
+False
+

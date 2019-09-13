@@ -1,0 +1,69 @@
+﻿<Window x:Class="MailSendWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:MailSendWPF"
+        Title="MailSend V0.99beta4" Name="mainWindow" Focusable="True" Height="700" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignWidth="930" SizeToContent="Height" Width="796" ResizeMode="CanMinimize" Closing="Window_Closing">
+
+    <DockPanel>
+        <Menu Focusable="True" DockPanel.Dock="Top" Name="mnuMenu">
+            <MenuItem Header="_Datei" Name="mnuItemFile" Focusable="True" Click="mnuItemFile_Click">
+                <MenuItem Header="_Open" IsEnabled="False" />
+                <Separator />
+                <MenuItem Name="save" Focusable="True" Header="_Save" Click="save_Click" />
+                <MenuItem Header="Save _As ..." IsEnabled="False" />
+                <Separator />
+                <MenuItem Name="mnuItemEnd" Header="_Exit" Click="mnuItemEnd_Click" />
+            </MenuItem>
+            <MenuItem Name="mnuItemHilfe" Header="_Help" IsEnabled="False" Click="mnuItemHilfe_Click" />
+        </Menu>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Width="24" Height="24" Click="save_Click">
+                <Image Source="/MailSendWPF;component/images/disk.png"></Image>
+            </Button>
+            <Button Width="24" Height="24" Click="btnAddServer_Click">
+                <Image Source="/MailSendWPF;component/images/add.png"></Image>
+            </Button>
+            <Button Width="24" Height="24" Click="btnDeleteServer_Click">
+                <Image Source="/MailSendWPF;component/images/delete.png"></Image>
+            </Button>
+            <Button Visibility="Collapsed" Name="btnDropDown" Width="24" Height="24" Click="btnDropDown_Click">
+                <Image Source="/MailSendWPF;component/images/shape_square.png"></Image>
+            </Button>
+            <Button Visibility="Collapsed" Name="btnList" Width="24" Height="24" Click="btnList_Click">
+                <Image Source="/MailSendWPF;component/images/application_view_list.png"></Image>
+            </Button>
+           
+            <ComboBox Name="cmbChooseServer" Width="150" SelectionChanged="cmbChooseServer_SelectionChanged" DisplayMemberPath="DisplayName"></ComboBox>
+
+        </ToolBar>
+        <StackPanel>
+
+
+            <Grid Name="mainGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!--lib:ServerControl x:Name="serverControl"></lib:ServerControl-->
+
+                <ScrollViewer Name="scrollServers" Focusable="True" Grid.Column="0" Grid.Row="0" Height="580" Width="785" CanContentScroll="False" VerticalScrollBarVisibility="Auto">
+                <StackPanel Name="stackServers" Orientation="Vertical" HorizontalAlignment="Center">
+                    
+                    
+                </StackPanel>
+                </ScrollViewer>
+
+                <!--StackPanel Name="serverButton" Grid.Column="0" Grid.Row="1" Orientation="Horizontal">
+                    <Button Name="btnAddServer" Click="btnAddServer_Click">Add Server</Button>
+                </StackPanel-->
+
+            </Grid>
+
+        </StackPanel>
+    </DockPanel>
+
+</Window>

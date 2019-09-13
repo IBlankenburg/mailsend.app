@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MailConfig"
+    targetNamespace="http://tempuri.org/MailConfig.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/MailConfig.xsd"
+    xmlns:mstns="http://tempuri.org/MailConfig.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="ServerSchema">
+
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MailTo"       type="xs:string"/>
+        <xs:element name="MailFrom" type="xs:string"/>
+        <xs:element name="SmartHost"  type="xs:string"/>
+        <xs:element name="Host"        type="xs:string"/>
+        <xs:element name="DisplayName"  type="xs:string"/>
+        <xs:element name="Port"        type="xs:integer" default="25"/>
+
+        <xs:element name="User"        type="xs:string"/>
+        <xs:element name="Pwd"        type="xs:string"/>
+        <xs:element name="MailDir"        type="xs:string" maxOccurs="unbounded"/>
+
+        <xs:element name="Filter"        type="xs:string" default="*.eml"/>
+
+        <xs:element name="Rounds"        type="xs:unsignedLong" default="1"/>
+
+        <xs:element name="Connections"        type="xs:integer" default="1"/>
+        <xs:element name="EndlessSending"        type="xs:boolean" default="false"/>
+        <xs:element name="Recursive"        type="xs:boolean" default="false"/>
+        <!--xs:element name="Subject"        type="xs:string"/-->
+
+        <xs:element name="AnonymousAuth"        type="xs:boolean" default="true"/>
+        <xs:element name="BasicAuth"        type="xs:boolean" default="false"/>
+
+        <xs:element name="Header" maxOccurs="unbounded">
+          <xs:complexType>
+
+            <xs:attribute name="Name" type="xs:string"/>
+            <xs:attribute name="Value" type="xs:string"/>
+
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Subject" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubjectExtensionValue" type="xs:string"></xs:element>
+              <xs:element name="SubjectNone" type="xs:boolean" default="true"></xs:element>
+              <xs:element name="SubjectExtentAtBegin" type="xs:boolean" default="false"></xs:element>
+              <xs:element name="SubjectExtentAtEnd" type="xs:boolean" default="false"></xs:element>
+              <xs:element name="SubjectMailCount" type="xs:boolean" default="false"></xs:element>
+
+              <xs:element name="SubjectMailName" type="xs:boolean" default="false"></xs:element>
+              <xs:element name="SubjectMailNameBegin" type="xs:boolean" default="true"></xs:element>
+              <xs:element name="SubjectMailNameEnd" type="xs:boolean" default="false"></xs:element>
+              <xs:element name="SubjectMailNameReplace" type="xs:boolean" default="false"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="Name" type="xs:string"/>
+            <xs:attribute name="Value" type="xs:string"/>
+
+          </xs:complexType>
+
+        </xs:element>
+
+
+        <xs:element name="Parsed"        type="xs:boolean" default="false"/>
+        <xs:element name="WaitBetweenMailsms"        type="xs:integer" default="0"/>
+        <xs:element name="SendOriginal"        type="xs:boolean" default="true"/>
+        <!--Message ID-->
+        <xs:element name="NewMessageID"        type="xs:boolean" default="false"/>
+        <xs:element name="DeleteMessageID"        type="xs:boolean" default="true"/>
+        <xs:element name="OriginalMessageID"        type="xs:boolean" default="false"/>
+
+        <xs:element name="FallBack"        type="xs:boolean" default="true"/>
+        <xs:element name ="CacheMailsUntilInByte" type="xs:long" default="0"/>
+        <xs:element name="ExPandServer" type="xs:boolean" default="true"/>
+        <xs:element name="MailSendWindowExpand" type="xs:boolean" default="true"/>
+
+        <xs:element name="MailsCount"        type="xs:unsignedLong" default="0"/>
+        <xs:element name="AddRecipientToMail"        type="xs:boolean" default="false"/>
+        <xs:element name="AddSenderToMail"        type="xs:boolean" default="false"/>
+        <xs:element name="CodePage"        type="xs:integer" default="65001"/>
+        <xs:element name="CodePageEnabled"        type="xs:boolean" default="false"/>
+        <xs:element name="Visible"        type="xs:boolean" default="false"/>
+        <xs:element name="ExternalProgram"  type="xs:string"/>
+        <xs:element name="Kommentar"  type="xs:string" maxOccurs="unbounded"/>
+
+        <xs:element name="RecipientGroup" type="xs:string" default=""></xs:element>
+        <xs:element name="RecipientGroupStart"        type="xs:integer" default="0"/>
+        <xs:element name="RecipientGroupEnd"        type="xs:integer" default="0"/>
+        <xs:element name="RecipientGroupDomain" type="xs:string"></xs:element>
+        <xs:element name="CHKUseRecipientGroup"        type="xs:boolean" default="false"/>
+
+        <xs:element name="SenderGroup" type="xs:string" default=""></xs:element>
+        <xs:element name="SenderGroupStart"        type="xs:integer" default="0"/>
+        <xs:element name="SenderGroupEnd"        type="xs:integer" default="0"/>
+        <xs:element name="SenderGroupDomain" type="xs:string"></xs:element>
+        <xs:element name="CHKUseSenderGroup"        type="xs:boolean" default="false"/>
+
+        <xs:element name="AddHeader"        type="xs:boolean" default="false"/>
+        <xs:element name="Logging"        type="xs:boolean" default="false"/>
+
+        <xs:element name="ReceiveBuffer"        type="xs:integer" default="8192"/>
+        <xs:element name="SendBuffer"        type="xs:integer" default="8192"/>
+        <xs:element name="ReceiveTimeout"        type="xs:integer" default="90000"/>
+        <xs:element name="SendTimeout"        type="xs:integer" default="90000"/>
+
+        <xs:element name="IgnoreAllErrors"        type="xs:boolean" default="false"/>
+        <xs:element name="UseTLS"        type="xs:boolean" default="false"/>
+        <xs:element name="UseSSLSecuredPort"        type="xs:boolean" default="false"/>
+        <xs:element name="NoSSL"        type="xs:boolean" default="true"/>
+
+        <xs:element name="MailFilePath" type="xs:string" default=""></xs:element>
+        <xs:element name="MailFolderPath" type="xs:string" default=""></xs:element>
+
+        <xs:element name="TestMailHeader" type="xs:string" default=""></xs:element>
+        <xs:element name="TestMailBody" type="xs:string" default="This is a MailSend Testmail"></xs:element>
+
+
+        <xs:element name="KeyManagerUse"        type="xs:boolean" default="false"/>
+        <xs:element name="KeyManagerTest"        type="xs:boolean" default="false"/>
+        <xs:element name="GetPrivateKeyRequest"        type="xs:boolean" default="false"/>
+        <xs:element name="GetAllPrivateKeysForEmailRequest"        type="xs:boolean" default="false"/>
+        <xs:element name="GetOrCreatePrivateKeyAdvancedRequest"        type="xs:boolean" default="false"/>
+        <xs:element name="GetOrCreatePrivateKeyRequest"        type="xs:boolean" default="false"/>
+        
+        <xs:element name="Get509CertificateRequest"        type="xs:boolean" default="false"/>
+        <xs:element name="ImportX509CertificateRequest"        type="xs:boolean" default="false"/>
+        <xs:element name="ImportFromTenant" type="xs:string" default=""></xs:element>
+
+        <xs:element name="GetAllX509CertificatesForEmailRequest" type="xs:boolean" default="false"/>
+        <xs:element name="GetPrivateKeyFromEnvelopeRequest" type="xs:boolean" default="false"/>
+        <xs:element name="GetX509CertificateForVerificationBySignedDataRequest" type="xs:boolean" default="false"/>
+        <xs:element name="MakeCyclicCertsForAllTenantsSame" type="xs:boolean" default="true"/>
+
+        <xs:element name="PrivateKeyType" type="xs:string" default=""></xs:element>
+        <xs:element name="PublicKeyType" type="xs:string" default=""></xs:element>
+        <xs:element name="Tenants" maxOccurs="unbounded">
+          <xs:complexType>
+
+            <xs:attribute name="TenantDisplayName" type="xs:string"/>
+            <xs:attribute name="TenantValue" type="xs:string"/>
+
+          </xs:complexType>
+        </xs:element>
+      
+
+
+      </xs:sequence>
+
+    </xs:complexType>
+
+  </xs:element>
+
+ 
+
+
+
+  <xs:complexType name="Servers">
+    <xs:sequence>
+      <xs:element ref="ServerSchema" maxOccurs="unbounded"/>
+      <xs:element name="OneServer" type="xs:boolean" default="true"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+</xs:schema>

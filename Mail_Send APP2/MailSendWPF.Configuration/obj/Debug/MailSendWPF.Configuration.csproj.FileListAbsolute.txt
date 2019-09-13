@@ -1,0 +1,5 @@
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Configuration\bin\Debug\MailConfig.xsd
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Configuration\bin\Debug\MailSendWPF.Configuration.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Configuration\bin\Debug\MailSendWPF.Configuration.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Configuration\obj\Debug\MailSendWPF.Configuration.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF.Configuration\obj\Debug\MailSendWPF.Configuration.pdb

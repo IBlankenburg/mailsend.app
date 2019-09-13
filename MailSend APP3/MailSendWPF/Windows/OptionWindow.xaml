@@ -1,0 +1,460 @@
+﻿<Window x:Class="MailSendWPF.Windows.OptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:MailSendWPF.Windows"
+        Title="OptionWindow" Height="600" Width="700" SizeToContent="WidthAndHeight" Closing="Window_Closing">
+    <Window.Resources>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Left">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.Row="0" Name="optionTabControl" TabStripPlacement="Top" Margin="0, 0, 0, 0" SelectionChanged="optionTabControl_SelectionChanged" Width="700">
+
+            <TabItem Name="mail" Header="Mail">
+                <StackPanel>
+                    <GroupBox Header="ParseMethod" >
+                        <StackPanel Orientation="Vertical" >
+                            <!--rbSendOriginal needs a Converter cause if SendOriginal = true MessageParser will not be used!! Must be inverted"-->
+                            <RadioButton Visibility="Collapsed" IsEnabled="False" Name="rbSendOriginal" GroupName="MailSendMethod" IsThreeState="True" Checked="rbSendOriginal_Checked" Unchecked="rbSendOriginal_Unchecked">Parse whole Message</RadioButton>
+                            <CheckBox Visibility="Collapsed" Name="chkFallBack" Margin="15,0,0,0" IsEnabled="{Binding ElementName=rbSendOriginal, Path=IsChecked}" IsChecked="{Binding Path=FallBack, Mode=TwoWay}" IsThreeState="False" Unchecked="chkFallBack_Unchecked" Checked="chkFallBack_Checked">If error fallback to Header parsing</CheckBox>
+
+                            <RadioButton Name="rbParseHeader" GroupName="MailSendMethod" IsThreeState="True" Checked="rbParseHeader_Checked" Unchecked="rbParseHeader_Unchecked">Parse Header</RadioButton>
+                            <RadioButton Name="rbOriginalMessage" GroupName="MailSendMethod" IsThreeState="True" Checked="rbOriginalMessage_Checked" Unchecked="rbOriginalMessage_Unchecked">Send original incl. MessageID</RadioButton>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox Header="Other">
+
+                        <Grid HorizontalAlignment="Left">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+
+                            <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Top">Rounds:</Label>
+                            <TextBox Grid.Column="1" Grid.Row="0" Name="txtRounds" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Width="100">
+                                <Binding Path="Rounds" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                    <Binding.ValidationRules>
+                                        <lib:PauseValidationRule></lib:PauseValidationRule>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox>
+
+
+                            <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">Pause between Mails:</Label>
+                            <TextBox Grid.Column="1" Grid.Row="1" Name="txtPause" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="0,4,0,4" Width="100">
+                                <Binding Path="WaitBetweenMailsms" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                    <Binding.ValidationRules>
+                                        <lib:PauseValidationRule></lib:PauseValidationRule>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox>
+                            <Label Grid.Column="2" Grid.Row="1" Margin="0,4,0,4" HorizontalAlignment="Left">(ms)</Label>
+
+                            <Label Grid.Column="0" Grid.Row="2" VerticalAlignment="Top">Cache Mails (greater, equal):</Label>
+                            <TextBox Grid.Column="1" Grid.Row="2" Name="txtCacheMail" Margin="0,4,0,4" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Width="100">
+                                <Binding Path="CacheMailsUntilInByte" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                    <Binding.ValidationRules>
+                                        <lib:PauseValidationRule></lib:PauseValidationRule>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox>
+                            <Label Grid.Column="2" Grid.Row="2" Margin="0,4,0,4" HorizontalAlignment="Left">(byte)</Label>
+                            <CheckBox Grid.Column="0" Grid.Row="3" Name="chkEndlessSending" Margin="0,4,0,4" IsChecked="{Binding Path=EndlessSending, Mode=TwoWay}">EndLessSending</CheckBox>
+
+                            <!--CheckBox Grid.Column="0" Grid.Row="4" Name="chkCodePage" Margin="0,4,0,4" IsChecked="{Binding Path=CodePageEnabled, Mode=TwoWay}">CodePage(Experts Only)</CheckBox-->
+                            <Label Grid.Column="0" Grid.Row="4" Name="chkCodePage" VerticalAlignment="Top" Margin="0,4,0,4">Editor for opening Mails:</Label>
+                            <TextBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" Name="txtCodePage" VerticalAlignment="Top" Margin="0,4,0,4" HorizontalContentAlignment="Left" Width="400">
+                                <Binding Path="ExternalProgram" UpdateSourceTrigger="LostFocus" Mode="TwoWay">
+                                </Binding>
+                            </TextBox>
+
+                        </Grid>
+                    </GroupBox>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Name="tabServer" Header="Server">
+                <StackPanel Orientation="Horizontal">
+                    <Grid HorizontalAlignment="Left">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <GroupBox Header="Authentication" Grid.Row="0" Grid.Column="0" >
+                            <StackPanel Orientation="Vertical">
+                                <Label Height="4" VerticalAlignment="Center"></Label>
+
+                                <StackPanel>
+                                    <RadioButton Name="rbAnonymous" GroupName="authenticationUnique" IsThreeState="False" Checked="rbAnonymous_Checked">Anonymous</RadioButton>
+                                    <RadioButton Name="rbBasic"  GroupName="authenticationUnique" IsThreeState="False" Checked="rbBasic_Checked">Basic</RadioButton>
+                                </StackPanel>
+
+
+                                <Grid IsEnabled="{Binding ElementName=rbBasic, Path=IsChecked, Mode=OneWay}">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Row="0" Grid.Column="0" Margin="5" VerticalAlignment="Center">Username:</Label>
+                                    <TextBox Text="{Binding Path=User, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" Width ="150" Margin="5" VerticalAlignment="Center"></TextBox>
+
+                                    <Label Grid.Row="1" Grid.Column="0" Margin="5" VerticalAlignment="Center">Password:</Label>
+                                    <PasswordBox lib:PasswordHelper.Attach="True"  lib:PasswordHelper.Password="{Binding Path=Pwd, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" Width="150" Margin="5" VerticalAlignment="Center"></PasswordBox>
+                                </Grid>
+                                <StackPanel>
+                                    <RadioButton Name="rbNoneSSL" GroupName="SSLAuth" IsThreeState="False" Checked="rbNoneSSL_Checked">None</RadioButton>
+                                    <!-- Port 465-->
+                                    <RadioButton Name="rbSMTPS"  GroupName="SSLAuth" IsThreeState="False" Checked="rbSMTPS_Checked">SMTPS</RadioButton>
+
+                                    <!-- Port 25-->
+                                    <RadioButton Name="rbTLS" GroupName="SSLAuth" IsThreeState="False" Checked="rbTLS_Checked">TLS</RadioButton>
+                                </StackPanel>
+
+
+                            </StackPanel>
+                        </GroupBox>
+                    </Grid>
+                    <GroupBox Header="Other" Width="300">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal">
+                                <Label VerticalAlignment="Top">Connections:</Label>
+                                <TextBox Name="txtConnections" VerticalAlignment="Top" Width="30">
+                                    <Binding Path="Connections" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                        <Binding.ValidationRules>
+                                            <lib:ReceiveTimeoutValidationRule></lib:ReceiveTimeoutValidationRule>
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </TextBox>
+                            </StackPanel>
+                            <CheckBox Name="IgnoreAllErrors" IsThreeState="False" IsChecked="{Binding Path=IgnoreAllErrors, Mode=TwoWay}">Ignore Errors</CheckBox>
+                            <CheckBox Name="chkLogging" IsThreeState="False" IsChecked="{Binding Path=Logging, Mode=TwoWay}" Click="chkLogging_Click">Logging</CheckBox>
+
+
+                            <GroupBox HorizontalAlignment="Left" Header="Developer" Width="300">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+
+
+
+                                    <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Top">Send Timeout:</Label>
+                                    <TextBox Grid.Row="0" Grid.Column="1"  Name="txtsendTimeout" VerticalAlignment="Top" Width="100">
+                                        <Binding Path="SendTimeout" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                            <Binding.ValidationRules>
+                                                <lib:ReceiveTimeoutValidationRule></lib:ReceiveTimeoutValidationRule>
+                                            </Binding.ValidationRules>
+                                        </Binding>
+                                    </TextBox>
+                                    <Label Grid.Row="0" Grid.Column="2" VerticalAlignment="Top">(ms)</Label>
+
+
+
+                                    <Label Grid.Row="1" Grid.Column="0"  VerticalAlignment="Top">Receive Timeout:</Label>
+                                    <TextBox Grid.Row="1" Grid.Column="1"  Name="txtReceiveTimeout" VerticalAlignment="Top" Width="100">
+                                        <Binding Path="ReceiveTimeout" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                            <Binding.ValidationRules>
+                                                <lib:ReceiveTimeoutValidationRule></lib:ReceiveTimeoutValidationRule>
+                                            </Binding.ValidationRules>
+                                        </Binding>
+                                    </TextBox>
+                                    <Label Grid.Row="1" Grid.Column="2"  VerticalAlignment="Top">(ms)</Label>
+
+
+
+                                    <Label Grid.Row="2" Grid.Column="0"  VerticalAlignment="Top">Send Buffer:</Label>
+                                    <TextBox Grid.Row="2" Grid.Column="1"  Name="txtSendBuffer" VerticalAlignment="Top" Width="100">
+                                        <Binding Path="SendBuffer" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                            <Binding.ValidationRules>
+                                                <lib:SendBufferValidationRule></lib:SendBufferValidationRule>
+                                            </Binding.ValidationRules>
+                                        </Binding>
+                                    </TextBox>
+                                    <Label Grid.Row="2" Grid.Column="2"  VerticalAlignment="Top">(byte)</Label>
+
+
+
+                                    <Label Grid.Row="3" Grid.Column="0"  VerticalAlignment="Top">Receive Buffer:</Label>
+                                    <TextBox Grid.Row="3" Grid.Column="1"  Name="txtReceiveBuffer" VerticalAlignment="Top" Width="100">
+                                        <Binding Path="ReceiveBuffer" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                            <Binding.ValidationRules>
+                                                <lib:ReceiveBufferValidationRule></lib:ReceiveBufferValidationRule>
+                                            </Binding.ValidationRules>
+                                        </Binding>
+                                    </TextBox>
+                                    <Label Grid.Row="3" Grid.Column="2" VerticalAlignment="Top">(byte)</Label>
+
+
+
+
+                                </Grid>
+                            </GroupBox>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Name="tabHeader" Header="Header">
+                <StackPanel Orientation="Vertical">
+                    <GroupBox Header="Header">
+                        <Grid HorizontalAlignment="Left">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Grid.Row="0">Name</Label>
+                            <Label Grid.Column="1" Grid.Row="0">Value</Label>
+                            <ListBox ItemsSource="{Binding Path=Header, Mode=TwoWay}" Height="200" SelectionMode="Single" Focusable="True" Foreground="{Binding ElementName=headerValue, Path=Foreground, Mode=TwoWay}" Background="{Binding ElementName=headerValue, Path=Background, Mode=TwoWay}"  SelectedItem="{Binding ElementName=headerValue, Path=SelectedItem, Mode=TwoWay}" DisplayMemberPath="Name" Name="headerName" Grid.Column="0" Grid.Row="1" Width="200" MouseDown="headerName_MouseDown" GotFocus="headerName_GotFocus" SelectionChanged="headerName_SelectionChanged"></ListBox>
+                            <ListBox ItemsSource="{Binding Path=Header, Mode=TwoWay}" Height="{Binding ElementName=headerName, Path=Height}" SelectionMode="Single" Focusable="True" DisplayMemberPath="Value" Name="headerValue" Grid.Column="1" Grid.Row="1" Width="450">
+
+                            </ListBox>
+                            <TextBox TextWrapping="Wrap" HorizontalAlignment="Left" Name="txtHeaderName" Grid.Column="0" Grid.Row="2" Width="200">
+
+                            </TextBox>
+                            <TextBox TextWrapping="NoWrap" HorizontalAlignment="Left" Name="txtHeaderValue" Grid.Column="1" Grid.Row="2" Width="450"></TextBox>
+                            <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+                                <Button Margin="5"  Name="btnAddHeader" Click="btnAddHeader_Click">Add Header</Button>
+                                <Button Margin="5" Name="btnRemoveHeader" Click="btnRemoveHeader_Click">Remove Header</Button>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+                    <!--Subject-->
+                    <StackPanel Orientation="Horizontal">
+                        <GroupBox Header="SubjectExtension">
+                            <Grid HorizontalAlignment="Left">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                                    <RadioButton Name="rbSubjectNone" GroupName="subject" IsThreeState="False" Click="rbSubjectNone_Click">None</RadioButton>
+                                    <RadioButton Name="rbSubjectBegin" GroupName="subject" IsThreeState="False" Click="rbSubjectBegin_Click">Begin</RadioButton>
+                                    <RadioButton Name="rbSubjectEnd" GroupName="subject" IsThreeState="False" Click="rbSubjectEnd_Click">End</RadioButton>
+                                    <Label Height="5"></Label>
+                                </StackPanel>
+                                <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Path=Subject.SubjectExtensionValue, Mode=TwoWay}" Name="subjectExtension" Width="200" VerticalAlignment="Center"></TextBox>
+                                <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="0">
+                                    <Label Name="placeHolder"></Label>
+                                    <CheckBox Grid.Row="2" Name="subjectAddMailCount" IsChecked="{Binding Path=Subject.SubjectMailCount, Mode=TwoWay}" IsThreeState="False">AddMailCount</CheckBox>
+                                    <CheckBox Name="addMailName" IsChecked="{Binding Path=Subject.SubjectMailName, Mode=TwoWay}" IsThreeState="False">Add name of E-Mail</CheckBox>
+                                    <RadioButton Name="rbSubjectMailNameBegin" IsEnabled="{Binding ElementName=addMailName, Path=IsChecked}" Margin="15,0,0,0" GroupName="subjectMailName" IsThreeState="False" Click="rbSubjectMailNameBegin_Click">Begin</RadioButton>
+                                    <RadioButton Name="rbSubjectMailNameEnd" IsEnabled="{Binding ElementName=addMailName, Path=IsChecked}" Margin="15,0,0,0" GroupName="subjectMailName" IsThreeState="False" Click="rbSubjectMailNameEnd_Click">End</RadioButton>
+                                    <RadioButton Name="rbSubjectMailNameReplace" IsEnabled="{Binding ElementName=addMailName, Path=IsChecked}" Margin="15,0,0,0" GroupName="subjectMailName" IsThreeState="False" Click="rbSubjectMailNameReplace_Click">Replace</RadioButton>
+
+                                </StackPanel>
+                            </Grid>
+                        </GroupBox>
+
+                        <GroupBox Header="Other" VerticalAlignment="Stretch">
+                            <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="4">
+                                <CheckBox Name="chkAddHeader" IsChecked="{Binding Path=AddHeader, Mode=TwoWay}" IsEnabled="True" IsThreeState="False" >Add Header if not exists</CheckBox>
+                                <!--RadioButton Name="rbNewMessageID" IsEnabled="False" GroupName="MessageID" IsThreeState="False" >New MessageID</RadioButton-->
+                                <!--RadioButton Name="rbDeleteMessageID" IsEnabled="False" GroupName="MessageID" IsThreeState="False" >Delete MessageID</RadioButton-->
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Sender/Recipient" VerticalAlignment="Stretch">
+                            <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="4">
+                                <CheckBox Name="chkAddSender" IsChecked="{Binding Path=AddSenderToMail, Mode=TwoWay}" IsThreeState="False" >Add Sender to Mail</CheckBox>
+                                <CheckBox Name="chkAddRecipient" IsChecked="{Binding Path=AddRecipientToMail, Mode=TwoWay}" IsThreeState="False" >Add Recipient to Mail</CheckBox>
+                                <GroupBox Name="recipientGroupBox"  Header="RecipientGroup" VerticalAlignment="Stretch">
+                                    <GroupBox.BindingGroup>
+                                        <BindingGroup>
+                                            <BindingGroup.ValidationRules>
+                                                <lib:RecipientGroupValidationRule ValidationStep="UpdatedValue"  ValidatesOnTargetUpdated="True"/>
+
+                                            </BindingGroup.ValidationRules>
+                                        </BindingGroup>
+                                    </GroupBox.BindingGroup>
+                                    <StackPanel Orientation="Vertical">
+                                        <CheckBox Name="chkUseRecipientGroup1" IsChecked="{Binding Path=CHKUseRecipientGroup, Mode=TwoWay}" IsThreeState="False" >Use Recipient Group</CheckBox>
+                                        <StackPanel Orientation="Horizontal">
+
+                                            <TextBox Name="txtRecipientGroup" Text="{Binding Path=RecipientGroup, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="160"></TextBox>
+                                            <TextBox Name="txtRecipientGroupStart" Width="50" TextChanged="OnCommitBindingGroup">
+                                                <Binding Path="RecipientGroupStart" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+
+                                                </Binding>
+
+                                            </TextBox>
+                                            <Label>-</Label>
+                                            <TextBox Name="txtRecipientGroupEnd" TextChanged="OnCommitBindingGroup" Width="50">
+                                                <Binding Path="RecipientGroupEnd" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+
+                                                </Binding>
+                                            </TextBox>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Label Width="20">@</Label>
+                                            <TextBox Name="txtDomain" Text="{Binding Path=RecipientGroupDomain, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="140"></TextBox>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </GroupBox>
+                                <!--Sender GroupBox-->
+                                <GroupBox Name="senderGroupBox"  Header="SenderGroup" VerticalAlignment="Stretch">
+                                    <GroupBox.BindingGroup>
+                                        <BindingGroup>
+                                            <BindingGroup.ValidationRules>
+                                                <lib:SenderGroupValidationRule ValidationStep="UpdatedValue"  ValidatesOnTargetUpdated="True"/>
+
+                                            </BindingGroup.ValidationRules>
+                                        </BindingGroup>
+                                    </GroupBox.BindingGroup>
+                                    <StackPanel Orientation="Vertical">
+                                        <CheckBox Name="chkUseSenderGroup1" IsChecked="{Binding Path=CHKUseSenderGroup, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" IsThreeState="False" >Use Sender Group</CheckBox>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBox Name="txtSenderGroup" Text="{Binding Path=SenderGroup, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="160"></TextBox>
+                                            <TextBox Name="txtSenderGroupStart" Width="50" TextChanged="OnCommitBindingGroupSender">
+                                                <Binding Path="SenderGroupStart" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+
+                                                </Binding>
+
+                                            </TextBox>
+                                            <Label>-</Label>
+                                            <TextBox Name="txtSenderGroupEnd" TextChanged="OnCommitBindingGroupSender" Width="50">
+                                                <Binding Path="SenderGroupEnd" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+
+                                                </Binding>
+                                            </TextBox>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Label Width="20">@</Label>
+                                            <TextBox Name="txtSenderDomain" Text="{Binding Path=SenderGroupDomain, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="140"></TextBox>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </GroupBox>
+
+                                <!--End SenderGroup Box-->
+
+
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                </StackPanel>
+
+            </TabItem>
+            <TabItem Header="KeyManager">
+
+                <GroupBox Header="Tenant">
+                    <StackPanel Orientation="Vertical">
+                        <Label>Please read manual first before use this options (or just play)</Label>
+                        <CheckBox Name="chkKeyManagerUse" IsChecked="{Binding Path=KeyManagerUse, Mode=TwoWay}" IsThreeState="False" >Use KeyManager</CheckBox>
+                        <CheckBox Name="chkKeyManagerTest" IsChecked="{Binding Path=KeyManagerTest, Mode=TwoWay}" IsThreeState="False" >Test KeyManager</CheckBox>
+
+                        <Grid HorizontalAlignment="Left">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Grid.Row="0">Name</Label>
+                            <Label Grid.Column="1" Grid.Row="0">GUID</Label>
+                            <ListBox ItemsSource="{Binding Path=Tenants, Mode=TwoWay}" Height="200" SelectionMode="Single" Focusable="True" Foreground="{Binding ElementName=tenantGuid, Path=Foreground, Mode=TwoWay}" Background="{Binding ElementName=tenantGuid, Path=Background, Mode=TwoWay}"  SelectedItem="{Binding ElementName=tenantGuid, Path=SelectedItem, Mode=TwoWay}" DisplayMemberPath="TenantDisplayName" Name="tenantDisplayName" Grid.Column="0" Grid.Row="1" Width="200" MouseDown="headerName_MouseDown" GotFocus="headerName_GotFocus" SelectionChanged="tenantName_SelectionChanged"></ListBox>
+                            <ListBox ItemsSource="{Binding Path=Tenants, Mode=TwoWay}" Height="{Binding ElementName=tenantDisplayName, Path=Height}" SelectionMode="Single" Focusable="True" DisplayMemberPath="TenantValue" Name="tenantGuid" Grid.Column="1" Grid.Row="1" Width="450">
+
+                            </ListBox>
+                            <TextBox TextWrapping="Wrap" HorizontalAlignment="Left" Name="txtTenantDisplayName" Grid.Column="0" Grid.Row="2" Width="200">
+
+                            </TextBox>
+                            <TextBox TextWrapping="NoWrap" HorizontalAlignment="Left" Name="txtTenantValue" Grid.Column="1" Grid.Row="2" Width="450"></TextBox>
+                            <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+                                <Button Margin="5"  Name="btnAddTenantDisplayName" Click="btnAddTenant_Click">Add Tenant</Button>
+                                <Button Margin="5" Name="btnRemoveTenantDisplayName" Click="btnRemoveTenant_Click">Remove Tenant</Button>
+                            </StackPanel>
+                        </Grid>
+
+                        <CheckBox Name="GetPrivateKeyRequest" IsChecked="{Binding Path=GetPrivateKeyRequest, Mode=TwoWay}" IsThreeState="False" >GetPrivateKeyRequest (iQ.Suite)</CheckBox>
+                            <CheckBox Name="GetAllPrivateKeysForEmailRequest" IsChecked="{Binding Path=GetAllPrivateKeysForEmailRequest, Mode=TwoWay}" IsThreeState="False" >GetAllPrivateKeysForEmailRequest</CheckBox>
+                        <CheckBox Name="GetOrCreatePrivateKeyAdvancedRequest" IsChecked="{Binding Path=GetOrCreatePrivateKeyAdvancedRequest, Mode=TwoWay}" IsThreeState="False" >GetOrCreatePrivateKeyAdvancedRequest (iQ.Suite)</CheckBox>
+                            <CheckBox Name="GetOrCreatePrivateKeyRequest" IsChecked="{Binding Path=GetOrCreatePrivateKeyRequest, Mode=TwoWay}" IsThreeState="False" >GetOrCreatePrivateKeyRequest</CheckBox>
+
+
+
+                        <CheckBox Name="GetPrivateKeyFromEnvelopeRequest" IsChecked="{Binding Path=GetPrivateKeyFromEnvelopeRequest, Mode=TwoWay}" IsThreeState="False" >GetPrivateKeyFromEnvelopeRequest RESTRICTED Only the same (iQ.Suite)</CheckBox>
+                        <CheckBox Name="Get509CertificateRequest" IsChecked="{Binding Path=Get509CertificateRequest, Mode=TwoWay}" IsThreeState="False" >Get509CertificateRequest (iQ.Suite)</CheckBox>
+                        <CheckBox Name="GetAllX509CertificatesForEmailRequest" IsChecked="{Binding Path=GetAllX509CertificatesForEmailRequest, Mode=TwoWay}" IsThreeState="False" >GetAllX509CertificatesForEmailRequest</CheckBox>
+                        <CheckBox Name="GetX509CertificateForVerificationBySignedDataRequest" IsEnabled="False" IsChecked="{Binding Path=GetX509CertificateForVerificationBySignedDataRequest, Mode=TwoWay}" IsThreeState="False" >GetX509CertificateForVerificationBySignedDataRequest RESTRICTED Only the same (iQ.Suite)</CheckBox>
+                        
+                        <Grid HorizontalAlignment="Left">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                            <CheckBox Grid.Column="0" Grid.Row="0" Name="ImportX509CertificateRequest" IsChecked="{Binding Path=ImportX509CertificateRequest, Mode=TwoWay}" IsThreeState="False" >ImportX509CertificateRequest (iQ.Suite) from:</CheckBox>
+                                <TextBox Grid.Column="1" Width="300" Grid.Row="0" Name="ImportFromTenant" Text="{Binding Path=ImportFromTenant, Mode=TwoWay}" ></TextBox>
+                                <Label Grid.Column="0" Grid.Row="1" >Type of private key</Label>
+                                <TextBox Grid.Column ="1" Width="300" Grid.Row="1" Name="PrivateKeyType" Text="{Binding Path=PrivateKeyType, Mode=TwoWay}" ></TextBox>
+                                <Label Grid.Column="0" Grid.Row="2" >Type of public key</Label>
+                                <TextBox Grid.Column="1" Width="300" Grid.Row="2" Name="PublicKeyType" Text="{Binding Path=PublicKeyType, Mode=TwoWay}" ></TextBox>
+                            </Grid>
+                        <CheckBox Name="MakeCyclicCertsForAllTenantsSame" IsChecked="{Binding Path=MakeCyclicCertsForAllTenantsSame, Mode=TwoWay}" Margin="0,9,0,0" ToolTip="If not checked, with every Email address is increased, Tenant is also increased so all Tenants have different certificates if used correctly. Be careful, for further Tests ALL CERTS MUST BE CREATED SUCCESSFULLY CAUSE OF ORDER " IsThreeState="False" >Iterate all Email(for certificates) for one Tenant than next Tenant</CheckBox>
+
+                       
+                    </StackPanel>
+                </GroupBox>
+            </TabItem>
+        </TabControl>
+        <!--StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Left"-->
+        <Button Grid.Row="1" Name="optionDialogClose" HorizontalAlignment="Left" VerticalAlignment="Center" Width="60" Height="30"  VerticalContentAlignment="Center" Click="optionDialogClose_Click">Close</Button>
+        <!--/StackPanel-->
+    </Grid>
+</Window>

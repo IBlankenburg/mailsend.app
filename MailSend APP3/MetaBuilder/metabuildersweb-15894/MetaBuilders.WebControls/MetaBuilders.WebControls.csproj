@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.20706</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7682E03-EEFF-404A-8280-6964621FA952}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MetaBuilders.WebControls</RootNamespace>
+    <AssemblyName>MetaBuilders.WebControls</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\..\MyStrongNameKey.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>Migrated rules for MetaBuilders.WebControls.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\MetaBuilders.WebControls.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CurrencyValidator.cs" />
+    <Compile Include="DateTimeValidator.cs" />
+    <Compile Include="Design\AdSenseAdUnitDesigner.cs" />
+    <Compile Include="Design\AdSenseLinkUnitDesigner.cs" />
+    <Compile Include="GoogleAdSense\AdSenseAdUnit.cs" />
+    <Compile Include="BooleanField.cs" />
+    <Compile Include="BooleanSelectionMode.cs" />
+    <Compile Include="CheckedListBox.cs" />
+    <Compile Include="ComboBox.cs" />
+    <Compile Include="Design\ButtonControlConverter.cs" />
+    <Compile Include="Design\ComboBoxDesigner.cs" />
+    <Compile Include="ComboBox.DefaultButtonTemplate.cs" />
+    <Compile Include="Design\CheckedListBoxDesigner.cs" />
+    <Compile Include="Design\DataGroupFieldConverter.cs" />
+    <Compile Include="Design\DataGroupFieldTypeEditor.cs" />
+    <Compile Include="Design\DialogControlConverter.cs" />
+    <Compile Include="Design\DialogDesigner.cs" />
+    <Compile Include="Design\DualListActionList.cs" />
+    <Compile Include="Design\ExpandingButtonTargetControlConverter.cs" />
+    <Compile Include="Design\ExpandingPanelDesigner.cs" />
+    <Compile Include="Design\GlobalRadioButtonDesigner.cs" />
+    <Compile Include="Design\GroupedListBoxDesigner.cs" />
+    <Compile Include="Design\ListControlConverter.cs" />
+    <Compile Include="Design\ListLinkDesigner.cs" />
+    <Compile Include="Design\MbwcDefaultValueAttribute.cs" />
+    <Compile Include="Design\DualListDesigner.cs" />
+    <Compile Include="Design\MultiFileUploadDesigner.cs" />
+    <Compile Include="Design\MultiViewBarCurrentItemConverter.cs" />
+    <Compile Include="Design\MultiViewBarDesigner.cs" />
+    <Compile Include="Design\MultiViewItemCollectionEditor.cs" />
+    <Compile Include="Design\OpenerDesigner.cs" />
+    <Compile Include="Design\ParsingContainerControlBuilder.cs" />
+    <Compile Include="Design\ParsingContainerDesigner.cs" />
+    <Compile Include="Design\ResizeMonitorDesigner.cs" />
+    <Compile Include="Design\TypeDescriptorContext.cs" />
+    <Compile Include="Design\WindowsFormsEditorService.cs" />
+    <Compile Include="DialogHandlerFactory.cs" />
+    <Compile Include="DialogInputBox.cs" />
+    <Compile Include="DialogInputBoxPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DialogMessageBox.cs" />
+    <Compile Include="DialogMessageBoxButtons.cs" />
+    <Compile Include="DialogMessageBoxIcon.cs" />
+    <Compile Include="DialogMessageBoxPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DialogOpenButton.cs" />
+    <Compile Include="DialogOpenLink.cs" />
+    <Compile Include="DialogPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DialogResultEvent.cs" />
+    <Compile Include="DialogWindow.cs" />
+    <Compile Include="DialogWindowBase.cs" />
+    <Compile Include="DualList.cs" />
+    <Compile Include="DynamicListBox.cs" />
+    <Compile Include="ExpandingButton.cs" />
+    <Compile Include="ExpandingButtonScriptUtil.cs" />
+    <Compile Include="ExpandingCheckBox.cs" />
+    <Compile Include="ExpandingImageButton.cs" />
+    <Compile Include="ExpandingLinkButton.cs" />
+    <Compile Include="ExpandingPanel.cs" />
+    <Compile Include="FileUpload.cs" />
+    <Compile Include="GlobalRadioButton.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="GoogleAdSense\AdSenseAlternateContent.cs" />
+    <Compile Include="GoogleAdSense\AdSenseContentAd.cs" />
+    <Compile Include="GoogleAdSense\AdUnitContent.cs" />
+    <Compile Include="GoogleAdSense\AdUnitCornerStyle.cs" />
+    <Compile Include="GoogleAdSense\AdUnitFormat.cs" />
+    <Compile Include="GoogleAdSense\AdSenseLinkUnit.cs" />
+    <Compile Include="GoogleAdSense\LinkUnitFormat.cs" />
+    <Compile Include="GroupedDropDownList.cs" />
+    <Compile Include="GroupedListBox.cs" />
+    <Compile Include="ISelectorFieldControl.cs" />
+    <Compile Include="DynamicListBox.ListCommand.cs" />
+    <Compile Include="ListLink.cs" />
+    <Compile Include="ListType.cs" />
+    <Compile Include="LookupField.cs" />
+    <Compile Include="Design\MbwcCategoryAttribute.cs" />
+    <Compile Include="MultiFileUpload.cs" />
+    <Compile Include="MultiViewBar\BarRenderers\BottomButtonDownLevelRenderer.cs" />
+    <Compile Include="MultiViewBar\BarRenderers\BottomButtonUpLevelRenderer.cs" />
+    <Compile Include="MultiViewBar\BarRenderers\MultiViewContentsRenderer.cs" />
+    <Compile Include="MultiViewBar\BarRenderers\SurroundButtonDownLevelRenderer.cs" />
+    <Compile Include="MultiViewBar\BarRenderers\SurroundButtonrUpLevelRenderer.cs" />
+    <Compile Include="MultiViewBar\BarRenderers\TopButtonDownLevelRenderer.cs" />
+    <Compile Include="MultiViewBar\BarRenderers\TopButtonUpLevelRenderer.cs" />
+    <Compile Include="MultiViewBar\MultiViewBar.cs" />
+    <Compile Include="MultiViewBar\MultiViewBarControlCollection.cs" />
+    <Compile Include="MultiViewBar\MultiViewButtonPlacement.cs" />
+    <Compile Include="MultiViewBar\MultiViewItem.cs" />
+    <Compile Include="MultiViewBar\MultiViewItemButtonStyle.cs" />
+    <Compile Include="MultiViewBar\MultiViewItemCollection.cs" />
+    <Compile Include="MultiViewBar\MultiViewLayoutDirection.cs" />
+    <Compile Include="NamingContainerScript.cs" />
+    <Compile Include="Design\NamingContainerScriptDesigner.cs" />
+    <Compile Include="OneClick.cs" />
+    <Compile Include="Design\OneClickDesigner.cs" />
+    <Compile Include="ParsingContainer.cs" />
+    <Compile Include="Polling\AnswerOrder.cs" />
+    <Compile Include="Polling\BarStyle.cs" />
+    <Compile Include="Polling\HorizontalBar.cs" />
+    <Compile Include="Polling\PollDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PollDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Polling\Polling.cs" />
+    <Compile Include="Polling\PollManager.cs" />
+    <Compile Include="Polling\PollManagerArea.cs" />
+    <Compile Include="Polling\PollResultsList.cs" />
+    <Compile Include="Polling\PollSelectionFilter.cs" />
+    <Compile Include="Polling\PollView.cs" />
+    <Compile Include="Polling\PollViewButton.cs" />
+    <Compile Include="Polling\PollViewButttonType.cs" />
+    <Compile Include="Polling\PollViewDesigner.cs" />
+    <Compile Include="Polling\PollViewState.cs" />
+    <Compile Include="Polling\PollViewTemplateContainer.cs" />
+    <Compile Include="Polling\Providers\AccessPollingProvider.cs" />
+    <Compile Include="Polling\Providers\ConfigHelper.cs" />
+    <Compile Include="Polling\Providers\PollingConfig.cs" />
+    <Compile Include="Polling\Providers\PollingProvider.cs" />
+    <Compile Include="Polling\Providers\PollingProviderCollection.cs" />
+    <Compile Include="Polling\Providers\SqlServerPollingProvider.cs" />
+    <Compile Include="Polling\ResultDisplayType.cs" />
+    <Compile Include="Polling\VoteEvent.cs" />
+    <Compile Include="Polling\VoteSelectionMode.cs" />
+    <Compile Include="Polling\VotingList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryCall.cs">
+    </Compile>
+    <Compile Include="QueryCallEvent.cs" />
+    <Compile Include="QueryCallVisibleAttribute.cs" />
+    <Compile Include="RemoteWindow.cs" />
+    <Compile Include="ResizeMonitor.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RollOverLink.cs" />
+    <Compile Include="RuntimeTemplate.cs" />
+    <Compile Include="RuntimeTemplateEvent.cs" />
+    <Compile Include="SelectorField.cs" />
+    <Compile Include="SelectorFieldCheckAllBox.cs" />
+    <Compile Include="SelectorFieldCheckBox.cs" />
+    <Compile Include="SelectorFieldRadioButton.cs" />
+    <Compile Include="UpDown.cs" />
+    <Compile Include="ValidatorScripts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ValidatorScripts.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CheckedListBox.bmp" />
+    <EmbeddedResource Include="Embedded\CheckedListBoxScript.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ComboBox.bmp" />
+    <EmbeddedResource Include="Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Embedded\ComboBoxScript.js" />
+    <EmbeddedResource Include="Embedded\DropDownButton_XpStandard.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Embedded\DefaultButtonsScript.js" />
+    <EmbeddedResource Include="Embedded\SelectorFieldScript.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DialogInputBox.bmp" />
+    <EmbeddedResource Include="DialogMessageBox.bmp" />
+    <EmbeddedResource Include="DialogOpenButton.bmp" />
+    <EmbeddedResource Include="DialogOpenLink.bmp" />
+    <EmbeddedResource Include="DialogWindow.bmp" />
+    <EmbeddedResource Include="Embedded\DialogWindowBaseScript.js" />
+    <EmbeddedResource Include="Embedded\exclamation.gif" />
+    <EmbeddedResource Include="Embedded\information.gif" />
+    <EmbeddedResource Include="Embedded\question.gif" />
+    <EmbeddedResource Include="Embedded\stop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DualList.bmp" />
+    <EmbeddedResource Include="Embedded\DualListScript.js" />
+    <EmbeddedResource Include="DynamicListBox.bmp" />
+    <EmbeddedResource Include="FileUpload.bmp" />
+    <EmbeddedResource Include="MultiFileUpload.bmp" />
+    <EmbeddedResource Include="Embedded\MultiFileUploadScript.js" />
+    <EmbeddedResource Include="Embedded\DynamicListBoxScript.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Embedded\blank.gif" />
+    <EmbeddedResource Include="Embedded\CookieJarScript.js" />
+    <EmbeddedResource Include="Embedded\ExpandingButtonScriptUtil.js" />
+    <EmbeddedResource Include="Embedded\ExpandingPanelScript.js" />
+    <EmbeddedResource Include="Embedded\ListLinkScript.js" />
+    <EmbeddedResource Include="Embedded\Minus.gif" />
+    <EmbeddedResource Include="Embedded\Plus.gif" />
+    <EmbeddedResource Include="Embedded\ResizeMonitorScript.js" />
+    <EmbeddedResource Include="Embedded\RollOverLinkScript.js" />
+    <EmbeddedResource Include="Embedded\UpDownScript.js" />
+    <EmbeddedResource Include="Embedded\MultiViewBarScript.js" />
+    <EmbeddedResource Include="Embedded\MultiViewItemScript.js" />
+    <EmbeddedResource Include="Embedded\down.gif" />
+    <EmbeddedResource Include="Embedded\up.gif" />
+    <EmbeddedResource Include="ExpandingButton.bmp" />
+    <EmbeddedResource Include="ExpandingCheckBox.bmp" />
+    <EmbeddedResource Include="ExpandingImageButton.bmp" />
+    <EmbeddedResource Include="ExpandingLinkButton.bmp" />
+    <EmbeddedResource Include="ExpandingPanel.bmp" />
+    <EmbeddedResource Include="MultiViewBar.bmp" />
+    <EmbeddedResource Include="NamingContainerScript.bmp" />
+    <EmbeddedResource Include="Embedded\NamingContainerScript.js" />
+    <EmbeddedResource Include="OneClick.bmp" />
+    <EmbeddedResource Include="ParsingContainer.bmp" />
+    <EmbeddedResource Include="QueryCall.bmp" />
+    <EmbeddedResource Include="RemoteWindow.bmp" />
+    <EmbeddedResource Include="ResizeMonitor.bmp" />
+    <EmbeddedResource Include="RollOverLink.bmp" />
+    <EmbeddedResource Include="UpDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GlobalRadioButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdSenseAdUnit.bmp" />
+    <EmbeddedResource Include="AdSenseLinkUnit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GroupedDropDownList.bmp" />
+    <EmbeddedResource Include="GroupedListBox.bmp" />
+    <EmbeddedResource Include="ListLink.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CurrencyValidator.bmp" />
+    <EmbeddedResource Include="ValidatorScripts.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ValidatorScripts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DateTimeValidator.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrated rules for MetaBuilders.WebControls.ruleset" />
+    <None Include="Polling\Providers\SqlServer Polling Script.sql" />
+    <None Include="Polling\PollDataSet.xsc">
+      <DependentUpon>PollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Polling\PollDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PollDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Polling\PollDataSet.xss">
+      <DependentUpon>PollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Polling\PollDataSet.xsx">
+      <DependentUpon>PollDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Polling\PollDataSetDocumentation.xml" />
+    <EmbeddedResource Include="Polling\Polling.mdb" />
+    <EmbeddedResource Include="PollManager.bmp" />
+    <EmbeddedResource Include="PollView.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

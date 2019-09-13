@@ -1,0 +1,37 @@
+X-Account-Key: account8
+X-UIDL: 50236A59DBEBEF381697DEC331F8A4B3
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from [172.30.200.138] ([172.30.200.138])
+          by QuickDomJH1.jh1.local (Lotus Domino Release 8.5.1)
+          with ESMTP id 2011111320370059-49135 ;
+          Sun, 13 Nov 2011 20:37:00 +0100 
+From: "testuser1@jh1.local" <testuser1@jh1.local>
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:8.0) Gecko/20111105 Thunderbird/8.0
+MIME-Version: 1.0
+To: "testuser1@jh1.local" <testuser1@jh1.local>
+Message-ID: <4EC01D42.5030605@jh1.local>
+Date: Sun, 13 Nov 2011 20:40:50 +0100
+Subject: =?ISO-8859-1?Q?test_=3CVerschl=FCsselung_=2F_Entschl=FCsselung?=
+ =?ISO-8859-1?Q?_automatisch=3E?=
+X-MIMETrack: Itemize by SMTP Server on susejh1/jh1(Release 8.5.1|September 28, 2009) at
+ 11/13/2011 08:37:00 PM,
+	Serialize by POP3 Server on susejh1/jh1(Release 8.5.1|September 28, 2009) at
+ 11/13/2011 08:37:08 PM,
+	Serialize complete at 11/13/2011 08:37:08 PM
+Content-Type: application/pkcs7-mime;
+	smime-type=enveloped-data;
+	name="smime.p7m"
+Content-Disposition: attachment;
+	filename="smime.p7m"
+Content-Transfer-Encoding: base64
+
+MIIBNAYJKoZIhvcNAQcDoIIBJTCCASECAQAxgYUwgYICAQAwLDAmMRIwEAYDVQQHEwlLYXJs
+c3J1aGUxEDAOBgNVBAMTB2hhZW5kbGUCAggwMA0GCSqGSIb3DQEBAQUABEBNb+Kx1WvKL7Vz
+1+avzQl9kFLtYBsDC7AUreWofDh8rbAOgfZXOXqZZHBHzbkGPfMzu8XMyk0j5BrhmlVOiPXH
+MIGTBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECEmmDN0RM4Q8gHBWxwaNGuzc4DESZz491GN6
+rf308ZT2H+P5wNVh/54W+oWDmnxRcgWUNh3CK9Y/OmjCKer3fpH+rFwEW4p2T+MNd+09jvEP
+gJSbFT4wkvRFgT7Y52y0WWa6hzK4kdueN++UfpsqerY9s1bF7UGCh5eO
+
+

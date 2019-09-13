@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://def.backend.ws.backend.kms.group.de" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ax23="http://def.backend.ws.backend.kms.group.de/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://def.backend.ws.backend.kms.group.de" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:ax24="http://def.backend.ws.backend.kms.group.de/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://def.backend.ws.backend.kms.group.de">
+      <xs:import namespace="http://def.backend.ws.backend.kms.group.de/xsd" />
+      <xs:element name="getAllX509CertificatesForEmail">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="emailAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAllX509CertificatesForEmailResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax24:ArrayOfKeys" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getServerVersionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax24:KMSVersion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getX509Certificate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="emailAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getX509CertificateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax24:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getX509CertificateBySerial">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="issuerDN" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="serial" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="outputKeyType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getX509CertificateBySerialResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax24:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getX509CertificateForVerificationBySignedData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="signedData" nillable="true" type="xs:base64Binary" />
+            <xs:element minOccurs="0" name="importKeys" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getX509CertificateForVerificationBySignedDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax24:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="importX509Certificates">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="guid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="certData" nillable="true" type="xs:base64Binary" />
+            <xs:element minOccurs="0" name="dataType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="importX509CertificatesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax24:KeyResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://def.backend.ws.backend.kms.group.de/xsd">
+      <xs:complexType name="ArrayOfKeys">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="keysCount" type="xs:long" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="list" nillable="true" type="ax23:KeyResult" />
+          <xs:element minOccurs="0" name="ret" nillable="true" type="ax23:ReturnStatus" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="KeyResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="data" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="dataType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="keyPassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ret" nillable="true" type="ax23:ReturnStatus" />
+          <xs:element minOccurs="0" name="trustStatus" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ReturnStatus">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="KMSVersion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="build" type="xs:int" />
+          <xs:element minOccurs="0" name="majorVersion" type="xs:int" />
+          <xs:element minOccurs="0" name="minorVersion" type="xs:int" />
+          <xs:element minOccurs="0" name="os" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="revision" type="xs:int" />
+          <xs:element minOccurs="0" name="svnRevision" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getX509CertificateForVerificationBySignedDataRequest">
+    <wsdl:part name="parameters" element="xsd:getX509CertificateForVerificationBySignedData" />
+  </wsdl:message>
+  <wsdl:message name="importX509CertificatesRequest">
+    <wsdl:part name="parameters" element="xsd:importX509Certificates" />
+  </wsdl:message>
+  <wsdl:message name="getAllX509CertificatesForEmailRequest">
+    <wsdl:part name="parameters" element="xsd:getAllX509CertificatesForEmail" />
+  </wsdl:message>
+  <wsdl:message name="getServerVersionRequest" />
+  <wsdl:message name="getX509CertificateBySerialResponse">
+    <wsdl:part name="parameters" element="xsd:getX509CertificateBySerialResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllX509CertificatesForEmailResponse">
+    <wsdl:part name="parameters" element="xsd:getAllX509CertificatesForEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="getX509CertificateForVerificationBySignedDataResponse">
+    <wsdl:part name="parameters" element="xsd:getX509CertificateForVerificationBySignedDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="getServerVersionResponse">
+    <wsdl:part name="parameters" element="xsd:getServerVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getX509CertificateRequest">
+    <wsdl:part name="parameters" element="xsd:getX509Certificate" />
+  </wsdl:message>
+  <wsdl:message name="getX509CertificateResponse">
+    <wsdl:part name="parameters" element="xsd:getX509CertificateResponse" />
+  </wsdl:message>
+  <wsdl:message name="getX509CertificateBySerialRequest">
+    <wsdl:part name="parameters" element="xsd:getX509CertificateBySerial" />
+  </wsdl:message>
+  <wsdl:message name="importX509CertificatesResponse">
+    <wsdl:part name="parameters" element="xsd:importX509CertificatesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="KMSBackendPublicWebServicePortType">
+    <wsdl:operation name="getServerVersion">
+      <wsdl:input wsaw:Action="urn:getServerVersion" message="xsd:getServerVersionRequest" />
+      <wsdl:output wsaw:Action="urn:getServerVersionResponse" message="xsd:getServerVersionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateBySerial">
+      <wsdl:input wsaw:Action="urn:getX509CertificateBySerial" message="xsd:getX509CertificateBySerialRequest" />
+      <wsdl:output wsaw:Action="urn:getX509CertificateBySerialResponse" message="xsd:getX509CertificateBySerialResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="importX509Certificates">
+      <wsdl:input wsaw:Action="urn:importX509Certificates" message="xsd:importX509CertificatesRequest" />
+      <wsdl:output wsaw:Action="urn:importX509CertificatesResponse" message="xsd:importX509CertificatesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllX509CertificatesForEmail">
+      <wsdl:input wsaw:Action="urn:getAllX509CertificatesForEmail" message="xsd:getAllX509CertificatesForEmailRequest" />
+      <wsdl:output wsaw:Action="urn:getAllX509CertificatesForEmailResponse" message="xsd:getAllX509CertificatesForEmailResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateForVerificationBySignedData">
+      <wsdl:input wsaw:Action="urn:getX509CertificateForVerificationBySignedData" message="xsd:getX509CertificateForVerificationBySignedDataRequest" />
+      <wsdl:output wsaw:Action="urn:getX509CertificateForVerificationBySignedDataResponse" message="xsd:getX509CertificateForVerificationBySignedDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getX509Certificate">
+      <wsdl:input wsaw:Action="urn:getX509Certificate" message="xsd:getX509CertificateRequest" />
+      <wsdl:output wsaw:Action="urn:getX509CertificateResponse" message="xsd:getX509CertificateResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="KMSBackendPublicWebServiceSoap11Binding" type="xsd:KMSBackendPublicWebServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getServerVersion">
+      <soap:operation soapAction="urn:getServerVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateBySerial">
+      <soap:operation soapAction="urn:getX509CertificateBySerial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="importX509Certificates">
+      <soap:operation soapAction="urn:importX509Certificates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllX509CertificatesForEmail">
+      <soap:operation soapAction="urn:getAllX509CertificatesForEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateForVerificationBySignedData">
+      <soap:operation soapAction="urn:getX509CertificateForVerificationBySignedData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509Certificate">
+      <soap:operation soapAction="urn:getX509Certificate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="KMSBackendPublicWebServiceHttpBinding" type="xsd:KMSBackendPublicWebServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getServerVersion">
+      <http:operation location="KMSBackendPublicWebService/getServerVersion" />
+      <wsdl:input>
+        <mime:content part="getServerVersion" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getServerVersion" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateBySerial">
+      <http:operation location="KMSBackendPublicWebService/getX509CertificateBySerial" />
+      <wsdl:input>
+        <mime:content part="getX509CertificateBySerial" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getX509CertificateBySerial" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="importX509Certificates">
+      <http:operation location="KMSBackendPublicWebService/importX509Certificates" />
+      <wsdl:input>
+        <mime:content part="importX509Certificates" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="importX509Certificates" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllX509CertificatesForEmail">
+      <http:operation location="KMSBackendPublicWebService/getAllX509CertificatesForEmail" />
+      <wsdl:input>
+        <mime:content part="getAllX509CertificatesForEmail" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getAllX509CertificatesForEmail" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateForVerificationBySignedData">
+      <http:operation location="KMSBackendPublicWebService/getX509CertificateForVerificationBySignedData" />
+      <wsdl:input>
+        <mime:content part="getX509CertificateForVerificationBySignedData" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getX509CertificateForVerificationBySignedData" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509Certificate">
+      <http:operation location="KMSBackendPublicWebService/getX509Certificate" />
+      <wsdl:input>
+        <mime:content part="getX509Certificate" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getX509Certificate" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="KMSBackendPublicWebServiceSoap12Binding" type="xsd:KMSBackendPublicWebServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getServerVersion">
+      <soap12:operation soapAction="urn:getServerVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateBySerial">
+      <soap12:operation soapAction="urn:getX509CertificateBySerial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="importX509Certificates">
+      <soap12:operation soapAction="urn:importX509Certificates" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllX509CertificatesForEmail">
+      <soap12:operation soapAction="urn:getAllX509CertificatesForEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509CertificateForVerificationBySignedData">
+      <soap12:operation soapAction="urn:getX509CertificateForVerificationBySignedData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getX509Certificate">
+      <soap12:operation soapAction="urn:getX509Certificate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="KMSBackendPublicWebService">
+    <wsdl:port name="KMSBackendPublicWebServiceHttpSoap11Endpoint" binding="xsd:KMSBackendPublicWebServiceSoap11Binding">
+      <soap:address location="http://172.30.200.143:8080/km.backend/services/KMSBackendPublicWebService/" />
+    </wsdl:port>
+    <wsdl:port name="KMSBackendPublicWebServiceHttpSoap12Endpoint" binding="xsd:KMSBackendPublicWebServiceSoap12Binding">
+      <soap12:address location="http://172.30.200.143:8080/km.backend/services/KMSBackendPublicWebService/" />
+    </wsdl:port>
+    <wsdl:port name="KMSBackendPublicWebServiceHttpEndpoint" binding="xsd:KMSBackendPublicWebServiceHttpBinding">
+      <http:address location="http://172.30.200.143:8080/km.backend/services/KMSBackendPublicWebService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

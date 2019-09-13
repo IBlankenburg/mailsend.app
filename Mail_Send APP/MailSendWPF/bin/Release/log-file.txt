@@ -1,0 +1,21 @@
+2012-08-26 20:09:07,607 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\1 unverschluesselt 1verschluesselt 1unverschluesselt PDFs.eml existiert nicht
+2012-08-26 20:09:07,750 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\2PDF  1 Encrypted 1 UnEncrypted.eml existiert nicht
+2012-08-26 20:09:07,751 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\3 PDF Encrypted.eml existiert nicht
+2012-08-26 20:09:07,753 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\6 PDFNOTENCRYPTED.eml existiert nicht
+2012-08-26 20:09:07,754 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\BruesselWikipediaUnverschluesselt.pdf.eml existiert nicht
+2012-08-26 20:09:07,755 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\GrindelwaldAdobe4KompatibelUnverschlüsselt.pdf.eml existiert nicht
+2012-08-26 20:09:07,757 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\InterlakenAdobe5KompatibelUnverschluesselt.pdf.eml existiert nicht
+2012-08-26 20:09:07,758 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\RomWikiAdobe3KompatibelUnverschluesselt.pdf.eml existiert nicht
+2012-08-26 20:09:07,759 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\RomWikiAdobe4KompatibelUnverschluesselt.pdf.eml existiert nicht
+2012-08-26 20:09:07,760 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\RomWikipediaVerschluesseltAdobe3Kompatibilitaet.pdf.eml existiert nicht
+2012-08-26 20:09:07,762 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\RomWikipediaVerschluesselungAdobe5Kompatibel.pdf.eml existiert nicht
+2012-08-26 20:09:07,763 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\RomWikiUnverschluesseltAdobe5Kompatibel.pdf.eml existiert nicht
+2012-08-26 20:09:07,765 [10] ERROR MailSendWPF.App [675] [(null)] - Verzeichnis C:\Mails\PDF\RomwikiVerschluesseltePDFAdobe4Kompatibel.pdf.eml existiert nicht
+2012-08-26 20:09:28,894 [12] ERROR MailSendWPF.App [1800] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\MailSend\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\MailSend\trunk\MailSendWPF\Server\SelfSmtp.cs:line 184
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\MailSend\trunk\MailSendWPF\SelfServer.cs:line 1782

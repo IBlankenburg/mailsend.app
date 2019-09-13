@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PollDataSet" targetNamespace="http://tempuri.org/PollDataSet.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/PollDataSet.xsd" xmlns:mstns="http://tempuri.org/PollDataSet.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="PollDataSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Options">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OptionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="PollID" type="xs:int" />
+							<xs:element name="Text" type="xs:string" />
+							<xs:element name="DisplayOrder" type="xs:int" />
+							<xs:element name="VoteAmount" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Polls">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PollID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Text" type="xs:string" />
+							<xs:element name="StartDate" type="xs:dateTime" />
+							<xs:element name="VoteMode" type="xs:string" />
+							<xs:element name="Enabled" type="xs:boolean" />
+							<xs:element name="AllowWriteIns" type="xs:boolean" />
+							<xs:element name="Category" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Votes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="VoteID" msdata:DataType="System.Guid, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+								type="xs:string" />
+							<xs:element name="Member" type="xs:string" minOccurs="0" />
+							<xs:element name="PollID" type="xs:int" />
+							<xs:element name="OptionID" type="xs:int" minOccurs="0" />
+							<xs:element name="WriteInText" type="xs:string" minOccurs="0" />
+							<xs:element name="DateVoted" type="xs:dateTime" />
+							<xs:element name="VoteRating" type="xs:int" />
+							<xs:element name="IPAddress" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="PollDataSetKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Options" />
+			<xs:field xpath="mstns:OptionID" />
+		</xs:unique>
+		<xs:unique name="PollDataSetKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Polls" />
+			<xs:field xpath="mstns:PollID" />
+		</xs:unique>
+		<xs:unique name="PollDataSetKey3" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Votes" />
+			<xs:field xpath="mstns:VoteID" />
+		</xs:unique>
+		<xs:keyref name="MetaBuilders_Polling_PollsMetaBuilders_Polling_Options" refer="PollDataSetKey2"
+			msdata:DeleteRule="Cascade" msdata:UpdateRule="Cascade">
+			<xs:selector xpath=".//mstns:Options" />
+			<xs:field xpath="mstns:PollID" />
+		</xs:keyref>
+		<xs:keyref name="MetaBuilders_Polling_PollsMetaBuilders_Polling_Votes" refer="PollDataSetKey2"
+			msdata:DeleteRule="Cascade" msdata:UpdateRule="Cascade">
+			<xs:selector xpath=".//mstns:Votes" />
+			<xs:field xpath="mstns:PollID" />
+		</xs:keyref>
+		<xs:keyref name="MetaBuilders_Polling_OptionsMetaBuilders_Polling_Votes" refer="PollDataSetKey1"
+			msdata:DeleteRule="Cascade" msdata:UpdateRule="Cascade">
+			<xs:selector xpath=".//mstns:Votes" />
+			<xs:field xpath="mstns:OptionID" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,5 @@
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\bin\Release\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\bin\Release\EncodingTools.pdb
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\obj\Release\EncodingTools.dll
+C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSend\EncodingTools\obj\Release\EncodingTools.pdb

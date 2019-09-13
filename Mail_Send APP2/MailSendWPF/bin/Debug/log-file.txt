@@ -1,0 +1,1989 @@
+2012-07-30 17:26:59,645 [9] INFO  MailSendWPF.App [702] [(null)] - Anzahl der Durchläufe: 1
+2012-07-30 17:26:59,671 [9] INFO  MailSendWPF.App [703] [(null)] - Gesamtanzahl der Nachrichten: 13
+2012-07-30 17:26:59,684 [11] INFO  MailSendWPF.App [169] [(null)] - Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25
+2012-07-30 17:26:59,688 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 220 SBS20011JH1.jh4.local Microsoft ESMTP MAIL Service ready at Mon, 30 Jul 2012 17:26:58 +0200
+
+2012-07-30 17:26:59,690 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: EHLO 0.0.0.0
+
+2012-07-30 17:26:59,691 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250-SBS20011JH1.jh4.local Hello [172.30.200.130]
+250-SIZE
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+
+2012-07-30 17:26:59,725 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\1 unverschluesselt 1verschluesselt 1unverschluesselt PDFs.eml
+2012-07-30 17:26:59,732 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:26:59,753 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:26:59,755 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:26:59,756 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:26:59,777 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2679643
+
+2012-07-30 17:27:05,019 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2679643 octets
+
+2012-07-30 17:27:05,021 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:27:15,742 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <efadc8c0-ed63-47d0-ac93-715a7e11fedd@SBS20011JH1.jh4.local> [InternalId=85] Queued mail for delivery
+
+2012-07-30 17:27:15,748 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\2PDF  1 Encrypted 1 UnEncrypted.eml
+2012-07-30 17:27:15,749 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:27:15,750 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:27:15,752 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:27:15,753 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:27:15,754 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2549057
+
+2012-07-30 17:27:21,005 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2549057 octets
+
+2012-07-30 17:27:21,006 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:27:28,966 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <96a5226b-232a-4cc1-8b9f-33e865217341@SBS20011JH1.jh4.local> [InternalId=86] Queued mail for delivery
+
+2012-07-30 17:27:28,980 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\3 PDF Encrypted.eml
+2012-07-30 17:27:28,981 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:27:28,982 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:27:28,983 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:27:28,984 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:27:28,985 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2025110
+
+2012-07-30 17:27:34,163 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2025110 octets
+
+2012-07-30 17:27:34,165 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:27:55,521 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <531aa038-f999-479c-8312-4d318df0a7bc@SBS20011JH1.jh4.local> [InternalId=87] Queued mail for delivery
+
+2012-07-30 17:27:55,543 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\6 PDFNOTENCRYPTED.eml
+2012-07-30 17:27:55,544 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:27:55,545 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:27:55,546 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:27:55,547 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:27:55,549 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 11084465
+
+2012-07-30 17:28:01,492 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 11084465 octets
+
+2012-07-30 17:28:01,494 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:28:16,201 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <4db717da-bc80-4551-93d4-f2ba97be02ad@SBS20011JH1.jh4.local> [InternalId=88] Queued mail for delivery
+
+2012-07-30 17:28:16,205 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\BruesselWikipediaUnverschluesselt.pdf.eml
+2012-07-30 17:28:16,207 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:28:16,208 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:28:16,210 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:28:16,211 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:28:16,212 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 1777196
+
+2012-07-30 17:28:21,353 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 1777196 octets
+
+2012-07-30 17:28:21,355 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:28:25,582 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <f37033a0-42cf-42a3-b882-7aa7967fba91@SBS20011JH1.jh4.local> [InternalId=89] Queued mail for delivery
+
+2012-07-30 17:28:25,585 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\GrindelwaldAdobe4KompatibelUnverschlüsselt.pdf.eml
+2012-07-30 17:28:25,587 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:28:25,588 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:28:25,589 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:28:25,589 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:28:25,590 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 892579
+
+2012-07-30 17:28:30,682 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 892579 octets
+
+2012-07-30 17:28:30,684 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:28:31,385 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <2d7f97dd-c24f-46ff-8c45-01f33445af9b@SBS20011JH1.jh4.local> [InternalId=90] Queued mail for delivery
+
+2012-07-30 17:28:31,388 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\InterlakenAdobe5KompatibelUnverschluesselt.pdf.eml
+2012-07-30 17:28:31,409 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:28:31,411 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:28:31,413 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:28:31,414 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:28:31,415 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 719694
+
+2012-07-30 17:28:36,465 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 719694 octets
+
+2012-07-30 17:28:36,467 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:28:37,293 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <dd720a44-00d3-4a10-80cb-9fc92fad5a02@SBS20011JH1.jh4.local> [InternalId=91] Queued mail for delivery
+
+2012-07-30 17:28:37,297 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiAdobe3KompatibelUnverschluesselt.pdf.eml
+2012-07-30 17:28:37,299 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:28:37,300 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:28:37,301 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:28:37,302 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:28:37,303 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2879964
+
+2012-07-30 17:28:42,558 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2879964 octets
+
+2012-07-30 17:28:42,560 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:28:45,811 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <e53783b1-70fa-4619-ba1e-0c2a260f7a43@SBS20011JH1.jh4.local> [InternalId=92] Queued mail for delivery
+
+2012-07-30 17:28:45,816 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiAdobe4KompatibelUnverschluesselt.pdf.eml
+2012-07-30 17:28:45,817 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:28:45,818 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:28:45,819 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:28:45,820 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:28:45,821 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2408838
+
+2012-07-30 17:28:51,027 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2408838 octets
+
+2012-07-30 17:28:51,029 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:28:54,273 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <158112dd-3474-4aea-83d5-7efcca07e904@SBS20011JH1.jh4.local> [InternalId=93] Queued mail for delivery
+
+2012-07-30 17:28:54,276 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikipediaVerschluesseltAdobe3Kompatibilitaet.pdf.eml
+2012-07-30 17:28:54,277 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:28:54,278 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:28:54,279 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:28:54,279 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:28:54,281 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:28:54,281 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:30:15,002 [8] INFO  MailSendWPF.App [702] [(null)] - Anzahl der Durchläufe: 1
+2012-07-30 17:30:15,028 [8] INFO  MailSendWPF.App [703] [(null)] - Gesamtanzahl der Nachrichten: 13
+2012-07-30 17:30:15,040 [11] INFO  MailSendWPF.App [169] [(null)] - Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25
+2012-07-30 17:30:15,044 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 220 SBS20011JH1.jh4.local Microsoft ESMTP MAIL Service ready at Mon, 30 Jul 2012 17:30:13 +0200
+
+2012-07-30 17:30:15,046 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: EHLO 0.0.0.0
+
+2012-07-30 17:30:15,048 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250-SBS20011JH1.jh4.local Hello [172.30.200.130]
+250-SIZE
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+
+2012-07-30 17:30:15,061 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\1 unverschluesselt 1verschluesselt 1unverschluesselt PDFs.eml
+2012-07-30 17:30:15,065 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:30:15,066 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:30:15,067 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:30:15,068 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:30:15,070 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:30:15,070 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:30:20,102 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:30:20,104 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2479643
+
+2012-07-30 17:30:25,337 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2479643 octets
+
+2012-07-30 17:30:25,339 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:30:37,110 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <f4d8e931-0da0-40f3-af54-6e73053aca00@SBS20011JH1.jh4.local> [InternalId=94] Queued mail for delivery
+
+2012-07-30 17:30:37,116 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\2PDF  1 Encrypted 1 UnEncrypted.eml
+2012-07-30 17:30:37,125 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:30:37,126 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:30:37,127 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:30:37,128 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:30:37,129 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:30:37,129 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:30:42,161 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:30:42,163 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2349057
+
+2012-07-30 17:30:47,380 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2349057 octets
+
+2012-07-30 17:30:47,382 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:30:55,242 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <f1778dfa-163e-4654-8672-3027969b1920@SBS20011JH1.jh4.local> [InternalId=95] Queued mail for delivery
+
+2012-07-30 17:30:55,255 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\3 PDF Encrypted.eml
+2012-07-30 17:30:55,257 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:30:55,261 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:30:55,263 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:30:55,265 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:30:55,266 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:30:55,266 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:31:00,287 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:31:00,289 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 1825110
+
+2012-07-30 17:31:05,460 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 1825110 octets
+
+2012-07-30 17:31:05,462 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:31:26,754 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <e1515e65-6cee-46a7-a1ca-c5e9f3507359@SBS20011JH1.jh4.local> [InternalId=96] Queued mail for delivery
+
+2012-07-30 17:31:26,778 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\6 PDFNOTENCRYPTED.eml
+2012-07-30 17:31:26,780 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:31:26,781 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:31:26,782 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:31:26,783 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:31:26,784 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:31:26,784 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:31:31,805 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:31:31,807 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 10884465
+
+2012-07-30 17:31:38,056 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 10884465 octets
+
+2012-07-30 17:31:38,058 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:31:52,212 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <73437ea1-3877-4f33-a98d-8f59d840e6c0@SBS20011JH1.jh4.local> [InternalId=97] Queued mail for delivery
+
+2012-07-30 17:31:52,216 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\BruesselWikipediaUnverschluesselt.pdf.eml
+2012-07-30 17:31:52,238 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:31:52,240 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:31:52,241 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:31:52,242 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:31:52,243 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:31:52,243 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:31:57,276 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:31:57,278 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 1577196
+
+2012-07-30 17:32:02,417 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 1577196 octets
+
+2012-07-30 17:32:02,419 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:32:05,513 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <7b9ff6dc-5aa9-4acf-a99a-9b7bfeb939f4@SBS20011JH1.jh4.local> [InternalId=98] Queued mail for delivery
+
+2012-07-30 17:32:05,516 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\GrindelwaldAdobe4KompatibelUnverschlüsselt.pdf.eml
+2012-07-30 17:32:05,518 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:32:05,519 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:32:05,520 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:32:05,521 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:32:05,521 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:32:05,522 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:32:10,543 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:32:10,545 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 692579
+
+2012-07-30 17:32:15,606 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 692579 octets
+
+2012-07-30 17:32:15,608 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:32:16,312 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <df07eaf8-546e-489b-84ab-8b69bf180ac0@SBS20011JH1.jh4.local> [InternalId=99] Queued mail for delivery
+
+2012-07-30 17:32:16,315 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\InterlakenAdobe5KompatibelUnverschluesselt.pdf.eml
+2012-07-30 17:32:16,317 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:32:16,318 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:32:16,319 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:32:16,320 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:32:16,320 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:32:16,321 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:32:21,340 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:32:21,342 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 519694
+
+2012-07-30 17:32:26,404 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 519694 octets
+
+2012-07-30 17:32:26,406 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:32:28,198 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <cb82ce7f-f9cf-402a-8759-134261105e0b@SBS20011JH1.jh4.local> [InternalId=100] Queued mail for delivery
+
+2012-07-30 17:32:28,203 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiAdobe3KompatibelUnverschluesselt.pdf.eml
+2012-07-30 17:32:28,204 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:32:28,205 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:32:28,206 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:32:28,206 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:32:28,207 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:32:28,208 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:32:33,232 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:32:33,234 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2679964
+
+2012-07-30 17:32:38,467 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2679964 octets
+
+2012-07-30 17:32:38,469 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:32:41,758 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <723dac0e-8b10-4a46-a5ff-1033c0f849f7@SBS20011JH1.jh4.local> [InternalId=101] Queued mail for delivery
+
+2012-07-30 17:32:41,763 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiAdobe4KompatibelUnverschluesselt.pdf.eml
+2012-07-30 17:32:41,764 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:32:41,765 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:32:41,766 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:32:41,767 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:32:41,767 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:32:41,768 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:32:46,796 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:32:46,799 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2208838
+
+2012-07-30 17:32:51,983 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2208838 octets
+
+2012-07-30 17:32:51,985 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:32:55,261 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <df235c3a-1c35-4090-93c4-50cc9fb44532@SBS20011JH1.jh4.local> [InternalId=102] Queued mail for delivery
+
+2012-07-30 17:32:55,263 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikipediaVerschluesseltAdobe3Kompatibilitaet.pdf.eml
+2012-07-30 17:32:55,265 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:32:55,266 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:32:55,267 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:32:55,268 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:32:55,269 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 184868
+
+2012-07-30 17:33:00,296 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 184868 octets
+
+2012-07-30 17:33:00,298 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:33:07,578 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <6ce8c8f6-e90d-4b43-b8f1-e87321ff1ff7@SBS20011JH1.jh4.local> [InternalId=103] Queued mail for delivery
+
+2012-07-30 17:33:07,581 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikipediaVerschluesselungAdobe5Kompatibel.pdf.eml
+2012-07-30 17:33:07,582 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:33:07,583 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:33:07,584 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:33:07,585 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:33:07,586 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 184854
+
+2012-07-30 17:33:12,610 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 184854 octets
+
+2012-07-30 17:33:12,612 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:33:19,786 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <53a1bc0f-9110-48d1-b1cc-6d40e8549e94@SBS20011JH1.jh4.local> [InternalId=104] Queued mail for delivery
+
+2012-07-30 17:33:19,791 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiUnverschluesseltAdobe5Kompatibel.pdf.eml
+2012-07-30 17:33:19,792 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:33:19,793 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:33:19,794 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:33:19,795 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:33:19,797 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:33:19,798 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:33:24,830 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:33:24,831 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2211688
+
+2012-07-30 17:33:30,034 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 2211688 octets
+
+2012-07-30 17:33:30,036 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:33:33,292 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <6fb839af-ea35-4fca-9a0f-332d716ed592@SBS20011JH1.jh4.local> [InternalId=105] Queued mail for delivery
+
+2012-07-30 17:33:33,296 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomwikiVerschluesseltePDFAdobe4Kompatibel.pdf.eml
+2012-07-30 17:33:33,298 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:33:33,299 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:33:33,300 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:33:33,300 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:33:33,301 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:33:33,302 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:33:38,331 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:33:38,333 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 1457636
+
+2012-07-30 17:33:43,472 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 1457636 octets
+
+2012-07-30 17:33:43,474 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:33:50,851 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <f124d41e-9274-43ca-9ed5-856d21fbf01b@SBS20011JH1.jh4.local> [InternalId=106] Queued mail for delivery
+
+2012-07-30 17:33:50,869 [11] INFO  MailSendWPF.App [1839] [(null)] - Queue is empty and all Mails sent in GetMessage: 13 from: 13
+2012-07-30 17:33:50,881 [11] DEBUG MailSendWPF.App [1259] [(null)] - MailSend.AllMailsSendException: System.InvalidOperationException: Queue empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Queue`1.Dequeue()
+   at MailSendWPF.SelfServer.GetMessage() in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1830
+   at MailSendWPF.SelfServer.SendMessageNew(Object threadContext) in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1095
+2012-07-30 17:33:50,889 [11] INFO  MailSendWPF.App [909] [(null)] - MailSend.AllMailsSendException: System.InvalidOperationException: Queue empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Queue`1.Dequeue()
+   at MailSendWPF.SelfServer.GetMessage() in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1830
+   at MailSendWPF.SelfServer.StartSendNew(Object threadContext) in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 887
+2012-07-30 17:33:50,891 [11] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-07-30 17:52:21,070 [9] INFO  MailSendWPF.App [702] [(null)] - Anzahl der Durchläufe: 1
+2012-07-30 17:52:21,096 [9] INFO  MailSendWPF.App [703] [(null)] - Gesamtanzahl der Nachrichten: 13
+2012-07-30 17:52:21,127 [12] INFO  MailSendWPF.App [169] [(null)] - Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25
+2012-07-30 17:52:21,131 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 220 SBS20011JH1.jh4.local Microsoft ESMTP MAIL Service ready at Mon, 30 Jul 2012 17:52:20 +0200
+
+2012-07-30 17:52:21,135 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: EHLO 0.0.0.0
+
+2012-07-30 17:52:21,136 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250-SBS20011JH1.jh4.local Hello [172.30.200.130]
+250-SIZE
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+
+2012-07-30 17:52:21,154 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\1 unverschluesselt 1verschluesselt 1unverschluesselt PDFs.eml
+2012-07-30 17:52:21,158 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:52:21,160 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:52:21,163 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:52:21,165 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:52:21,169 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:52:21,170 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:52:26,206 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:52:26,208 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 17:52:26,209 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:52:31,231 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:52:31,233 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 17:52:31,234 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:52:36,264 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:52:36,266 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 17:52:36,267 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:52:41,295 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:52:41,297 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 17:52:41,298 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:52:46,326 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:52:46,328 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 17:52:46,329 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:52:51,357 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:52:51,359 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 17:52:51,381 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:52:56,405 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:52:56,407 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 17:52:56,408 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:01,436 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:01,438 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 17:53:01,439 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:06,453 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:06,455 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 17:53:06,456 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:11,484 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:11,486 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2200000 Position:= 2000000
+2012-07-30 17:53:11,487 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:16,516 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:16,519 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2400000 Position:= 2200000
+2012-07-30 17:53:16,520 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:21,547 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:21,549 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2600000 Position:= 2400000
+2012-07-30 17:53:21,550 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:26,582 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:26,584 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 79643
+
+2012-07-30 17:53:31,638 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 79643 octets
+
+2012-07-30 17:53:31,640 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:53:43,258 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <521ac679-1b10-4f95-ac02-4b771ee9b891@SBS20011JH1.jh4.local> [InternalId=107] Queued mail for delivery
+
+2012-07-30 17:53:43,264 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\2PDF  1 Encrypted 1 UnEncrypted.eml
+2012-07-30 17:53:43,265 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:53:43,267 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:53:43,267 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:53:43,270 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:53:43,271 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:53:43,271 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:48,300 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:48,302 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 17:53:48,302 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:53,331 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:53,333 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 17:53:53,334 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:53:58,363 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:53:58,365 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 17:54:02,076 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:07,083 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:07,085 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 17:54:07,087 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:12,115 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:12,117 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 17:54:12,117 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:17,146 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:17,148 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 17:54:17,150 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:22,177 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:22,179 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 17:54:22,180 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:27,214 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:27,216 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 17:54:27,217 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:32,240 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:32,242 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 17:54:32,243 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:37,272 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:37,274 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2200000 Position:= 2000000
+2012-07-30 17:54:37,275 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:42,303 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:42,305 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2400000 Position:= 2200000
+2012-07-30 17:54:42,306 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:54:47,336 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:54:47,338 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 149057
+
+2012-07-30 17:54:52,367 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 149057 octets
+
+2012-07-30 17:54:52,369 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:55:00,371 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <9bc51217-4990-4856-98e7-affdeb6dc0d8@SBS20011JH1.jh4.local> [InternalId=108] Queued mail for delivery
+
+2012-07-30 17:55:00,375 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\3 PDF Encrypted.eml
+2012-07-30 17:55:00,376 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:55:00,398 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:55:00,419 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:55:00,420 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:55:00,421 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:55:00,422 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:05,447 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:05,448 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 17:55:05,452 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:10,464 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:10,466 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 17:55:10,467 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:15,496 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:15,498 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 17:55:15,499 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:20,541 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:20,543 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 17:55:20,544 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:25,573 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:25,575 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 17:55:25,576 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:30,589 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:30,591 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 17:55:30,592 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:35,622 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:35,624 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 17:55:35,625 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:40,652 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:40,654 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 17:55:40,655 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:45,684 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:45,686 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 17:55:45,687 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:55:50,715 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:55:50,717 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 25110
+
+2012-07-30 17:55:55,716 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 25110 octets
+
+2012-07-30 17:55:55,718 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 17:56:17,952 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <d5eca656-d8d4-409f-b994-6ca4400f4ac6@SBS20011JH1.jh4.local> [InternalId=109] Queued mail for delivery
+
+2012-07-30 17:56:17,974 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\6 PDFNOTENCRYPTED.eml
+2012-07-30 17:56:17,975 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 17:56:17,976 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 17:56:17,977 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 17:56:17,978 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 17:56:17,979 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 17:56:17,980 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:22,999 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:23,001 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 17:56:23,002 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:28,031 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:28,032 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 17:56:28,033 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:33,062 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:33,064 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 17:56:33,065 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:38,095 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:38,096 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 17:56:38,098 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:43,125 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:43,127 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 17:56:43,128 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:48,157 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:48,159 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 17:56:48,160 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:53,188 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:53,190 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 17:56:53,191 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:56:58,226 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:56:58,228 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 17:56:58,229 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:03,252 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:03,254 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 17:57:03,254 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:08,284 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:08,286 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2200000 Position:= 2000000
+2012-07-30 17:57:08,287 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:13,316 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:13,318 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2400000 Position:= 2200000
+2012-07-30 17:57:13,318 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:18,348 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:18,350 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2600000 Position:= 2400000
+2012-07-30 17:57:18,350 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:23,378 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:23,380 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2800000 Position:= 2600000
+2012-07-30 17:57:23,381 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:28,411 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:28,413 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3000000 Position:= 2800000
+2012-07-30 17:57:28,414 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:33,442 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:33,444 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3200000 Position:= 3000000
+2012-07-30 17:57:33,445 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:38,474 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:38,476 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3400000 Position:= 3200000
+2012-07-30 17:57:38,477 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:43,505 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:43,507 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3600000 Position:= 3400000
+2012-07-30 17:57:43,508 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:48,537 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:48,539 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3800000 Position:= 3600000
+2012-07-30 17:57:48,540 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:53,568 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:53,570 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4000000 Position:= 3800000
+2012-07-30 17:57:53,571 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:57:58,603 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:57:58,605 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4200000 Position:= 4000000
+2012-07-30 17:57:58,606 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:03,662 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:03,665 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4400000 Position:= 4200000
+2012-07-30 17:58:03,665 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:08,695 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:08,699 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4600000 Position:= 4400000
+2012-07-30 17:58:08,700 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:13,726 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:13,728 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4800000 Position:= 4600000
+2012-07-30 17:58:13,729 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:18,758 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:18,760 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5000000 Position:= 4800000
+2012-07-30 17:58:18,761 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:23,789 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:23,791 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5200000 Position:= 5000000
+2012-07-30 17:58:23,792 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:28,821 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:28,823 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5400000 Position:= 5200000
+2012-07-30 17:58:28,824 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:33,854 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:33,856 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5600000 Position:= 5400000
+2012-07-30 17:58:33,857 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:38,884 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:38,886 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5800000 Position:= 5600000
+2012-07-30 17:58:38,887 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:43,917 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:43,919 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6000000 Position:= 5800000
+2012-07-30 17:58:43,919 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:48,948 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:48,950 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6200000 Position:= 6000000
+2012-07-30 17:58:48,951 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:53,981 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:53,982 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6400000 Position:= 6200000
+2012-07-30 17:58:53,982 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:58:59,011 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:58:59,013 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6600000 Position:= 6400000
+2012-07-30 17:58:59,014 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:04,042 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:04,044 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6800000 Position:= 6600000
+2012-07-30 17:59:04,045 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:09,075 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:09,077 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7000000 Position:= 6800000
+2012-07-30 17:59:09,078 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:14,090 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:14,092 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7200000 Position:= 7000000
+2012-07-30 17:59:14,093 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:19,107 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:19,109 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7400000 Position:= 7200000
+2012-07-30 17:59:19,110 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:24,137 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:24,139 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7600000 Position:= 7400000
+2012-07-30 17:59:24,140 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:29,170 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:29,172 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7800000 Position:= 7600000
+2012-07-30 17:59:29,173 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:34,201 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:34,203 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8000000 Position:= 7800000
+2012-07-30 17:59:34,224 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:39,237 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:39,238 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8200000 Position:= 8000000
+2012-07-30 17:59:39,240 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:44,264 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:44,266 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8400000 Position:= 8200000
+2012-07-30 17:59:44,267 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:49,296 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:49,298 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8600000 Position:= 8400000
+2012-07-30 17:59:49,299 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:54,327 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:54,328 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8800000 Position:= 8600000
+2012-07-30 17:59:54,329 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 17:59:59,360 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 17:59:59,361 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9000000 Position:= 8800000
+2012-07-30 17:59:59,362 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:00:09,454 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:00:09,456 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9200000 Position:= 9000000
+2012-07-30 18:00:09,457 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:00:14,487 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:00:14,489 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9400000 Position:= 9200000
+2012-07-30 18:00:14,490 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:00:19,517 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:00:19,519 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9600000 Position:= 9400000
+2012-07-30 18:00:19,520 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:00:24,550 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:00:24,552 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9800000 Position:= 9600000
+2012-07-30 18:00:24,553 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:00:32,283 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:00:49,932 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10000000 Position:= 9800000
+2012-07-30 18:00:49,953 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:00:57,932 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:00:57,934 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10200000 Position:= 10000000
+2012-07-30 18:00:57,935 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:01:04,333 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:01:04,334 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10400000 Position:= 10200000
+2012-07-30 18:01:04,335 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:01:13,428 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:01:13,431 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10600000 Position:= 10400000
+2012-07-30 18:01:13,431 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:01:18,460 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:01:18,462 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10800000 Position:= 10600000
+2012-07-30 18:01:18,463 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:01:23,491 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:01:23,493 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 11000000 Position:= 10800000
+2012-07-30 18:01:23,494 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:01:28,525 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:01:28,527 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 84465
+
+2012-07-30 18:01:33,538 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 84465 octets
+
+2012-07-30 18:01:33,540 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 18:01:59,119 [10] INFO  MailSendWPF.App [702] [(null)] - Anzahl der Durchläufe: 1
+2012-07-30 18:01:59,145 [10] INFO  MailSendWPF.App [703] [(null)] - Gesamtanzahl der Nachrichten: 13
+2012-07-30 18:01:59,157 [12] INFO  MailSendWPF.App [169] [(null)] - Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25
+2012-07-30 18:01:59,161 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 220 SBS20011JH1.jh4.local Microsoft ESMTP MAIL Service ready at Mon, 30 Jul 2012 18:01:58 +0200
+
+2012-07-30 18:01:59,163 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: EHLO 0.0.0.0
+
+2012-07-30 18:01:59,163 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250-SBS20011JH1.jh4.local Hello [172.30.200.130]
+250-SIZE
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+
+2012-07-30 18:01:59,176 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\1 unverschluesselt 1verschluesselt 1unverschluesselt PDFs.eml
+2012-07-30 18:01:59,180 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:01:59,181 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:01:59,182 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:01:59,184 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:01:59,187 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:01:59,194 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:01:59,196 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:01:59,213 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:01:59,214 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:02:04,447 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:04,449 [12] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 18:02:15,687 [9] INFO  MailSendWPF.App [702] [(null)] - Anzahl der Durchläufe: 1
+2012-07-30 18:02:15,713 [9] INFO  MailSendWPF.App [703] [(null)] - Gesamtanzahl der Nachrichten: 13
+2012-07-30 18:02:15,746 [11] INFO  MailSendWPF.App [169] [(null)] - Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25
+2012-07-30 18:02:15,771 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 220 SBS20011JH1.jh4.local Microsoft ESMTP MAIL Service ready at Mon, 30 Jul 2012 18:02:14 +0200
+
+2012-07-30 18:02:15,793 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: EHLO 0.0.0.0
+
+2012-07-30 18:02:15,794 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250-SBS20011JH1.jh4.local Hello [172.30.200.130]
+250-SIZE
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+
+2012-07-30 18:02:15,807 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\1 unverschluesselt 1verschluesselt 1unverschluesselt PDFs.eml
+2012-07-30 18:02:15,810 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:02:15,811 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:02:15,812 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:02:15,813 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:02:15,815 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:02:15,816 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:15,818 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:02:16,042 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:16,045 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:02:21,058 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:21,060 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 18:02:26,074 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:26,077 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 18:02:30,885 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:30,887 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 18:02:35,885 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:35,887 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 18:02:41,091 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:41,093 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 18:02:46,091 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:46,093 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 18:02:50,886 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:50,887 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 18:02:56,092 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:02:56,094 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2200000 Position:= 2000000
+2012-07-30 18:03:00,886 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:00,888 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2400000 Position:= 2200000
+2012-07-30 18:03:06,093 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:06,095 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2600000 Position:= 2400000
+2012-07-30 18:03:10,889 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:16,126 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 79643
+
+2012-07-30 18:03:16,128 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:03:16,129 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 18:03:20,939 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:03:20,945 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\2PDF  1 Encrypted 1 UnEncrypted.eml
+2012-07-30 18:03:20,966 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:03:25,960 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 79643 octets
+
+2012-07-30 18:03:25,962 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:03:36,641 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <8dfc45c5-17aa-4296-a62e-5bde7f75cdca@SBS20011JH1.jh4.local> [InternalId=111] Queued mail for delivery
+
+2012-07-30 18:03:36,643 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:03:36,644 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:36,644 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:03:36,877 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:36,879 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:03:41,892 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:41,894 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 18:03:46,900 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:46,902 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 18:03:51,924 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:51,927 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 18:03:56,941 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:03:56,943 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 18:04:01,956 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:01,958 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 18:04:06,768 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:06,769 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 18:04:11,972 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:11,974 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 18:04:16,973 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:16,976 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2200000 Position:= 2000000
+2012-07-30 18:04:21,973 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:21,975 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2400000 Position:= 2200000
+2012-07-30 18:04:26,974 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:31,974 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 149057
+
+2012-07-30 18:04:31,976 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+250 2.1.5 Recipient OK
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:04:31,977 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 18:04:36,759 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:04:36,764 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\3 PDF Encrypted.eml
+2012-07-30 18:04:36,765 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:04:41,758 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 149057 octets
+
+2012-07-30 18:04:41,760 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:04:50,870 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <ed6df956-4f30-4af0-beec-70af1a1a6b10@SBS20011JH1.jh4.local> [InternalId=112] Queued mail for delivery
+
+2012-07-30 18:04:50,872 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:04:50,873 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:50,874 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:04:50,913 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:50,914 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:04:55,932 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:04:55,934 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 18:05:00,941 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:05:00,943 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 18:05:06,165 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:05:06,167 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 18:05:10,974 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:05:10,975 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 18:05:16,198 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:05:16,200 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 18:05:21,213 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:05:21,215 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 18:05:26,229 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:05:26,231 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 18:05:31,229 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:05:36,230 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 25110
+
+2012-07-30 18:05:36,232 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+250 2.1.5 Recipient OK
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:05:36,233 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 18:05:41,012 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:05:41,034 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\6 PDFNOTENCRYPTED.eml
+2012-07-30 18:05:41,036 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:05:46,012 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 25110 octets
+
+2012-07-30 18:05:46,014 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:06:03,422 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <cd72b4cb-0f60-471f-99b6-ab021647f2c5@SBS20011JH1.jh4.local> [InternalId=113] Queued mail for delivery
+
+2012-07-30 18:06:03,424 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:06:03,425 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:03,426 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:06:03,450 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:03,452 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:06:08,685 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:08,687 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 18:06:13,495 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:13,497 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 18:06:18,717 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:18,719 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 18:06:23,525 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:23,527 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 18:06:28,734 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:28,736 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 18:06:33,733 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:33,736 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1800000 Position:= 1600000
+2012-07-30 18:06:38,527 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:38,529 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2000000 Position:= 1800000
+2012-07-30 18:06:43,528 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:43,529 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2200000 Position:= 2000000
+2012-07-30 18:06:48,529 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:48,530 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2400000 Position:= 2200000
+2012-07-30 18:06:53,735 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:53,737 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2600000 Position:= 2400000
+2012-07-30 18:06:58,529 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:06:58,530 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 2800000 Position:= 2600000
+2012-07-30 18:07:03,528 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:03,530 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3000000 Position:= 2800000
+2012-07-30 18:07:08,737 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:08,739 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3200000 Position:= 3000000
+2012-07-30 18:07:13,737 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:13,739 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3400000 Position:= 3200000
+2012-07-30 18:07:18,737 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:18,739 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3600000 Position:= 3400000
+2012-07-30 18:07:23,737 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:23,739 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 3800000 Position:= 3600000
+2012-07-30 18:07:28,531 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:28,533 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4000000 Position:= 3800000
+2012-07-30 18:07:33,738 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:33,740 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4200000 Position:= 4000000
+2012-07-30 18:07:38,739 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:38,741 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4400000 Position:= 4200000
+2012-07-30 18:07:43,739 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:43,741 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4600000 Position:= 4400000
+2012-07-30 18:07:48,532 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:48,534 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 4800000 Position:= 4600000
+2012-07-30 18:07:53,739 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:53,741 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5000000 Position:= 4800000
+2012-07-30 18:07:58,533 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:07:58,535 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5200000 Position:= 5000000
+2012-07-30 18:08:03,533 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:03,535 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5400000 Position:= 5200000
+2012-07-30 18:08:08,535 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:08,536 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5600000 Position:= 5400000
+2012-07-30 18:08:13,741 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:13,743 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 5800000 Position:= 5600000
+2012-07-30 18:08:18,742 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:18,744 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6000000 Position:= 5800000
+2012-07-30 18:08:23,535 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:23,536 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6200000 Position:= 6000000
+2012-07-30 18:08:28,748 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:28,749 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6400000 Position:= 6200000
+2012-07-30 18:08:33,537 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:33,539 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6600000 Position:= 6400000
+2012-07-30 18:08:38,537 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:38,539 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 6800000 Position:= 6600000
+2012-07-30 18:08:43,743 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:43,745 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7000000 Position:= 6800000
+2012-07-30 18:08:48,538 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:48,540 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7200000 Position:= 7000000
+2012-07-30 18:08:53,744 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:53,746 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7400000 Position:= 7200000
+2012-07-30 18:08:58,745 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:08:58,747 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7600000 Position:= 7400000
+2012-07-30 18:09:03,539 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:03,560 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 7800000 Position:= 7600000
+2012-07-30 18:09:08,746 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:08,748 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8000000 Position:= 7800000
+2012-07-30 18:09:13,746 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:13,748 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8200000 Position:= 8000000
+2012-07-30 18:09:18,747 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:18,749 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8400000 Position:= 8200000
+2012-07-30 18:09:23,539 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:23,541 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8600000 Position:= 8400000
+2012-07-30 18:09:28,747 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:28,749 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 8800000 Position:= 8600000
+2012-07-30 18:09:33,747 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:33,749 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9000000 Position:= 8800000
+2012-07-30 18:09:38,748 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:38,749 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9200000 Position:= 9000000
+2012-07-30 18:09:43,748 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:43,750 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9400000 Position:= 9200000
+2012-07-30 18:09:48,749 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:48,770 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9600000 Position:= 9400000
+2012-07-30 18:09:53,543 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:53,544 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 9800000 Position:= 9600000
+2012-07-30 18:09:58,750 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:09:58,752 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10000000 Position:= 9800000
+2012-07-30 18:10:03,749 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:03,751 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10200000 Position:= 10000000
+2012-07-30 18:10:08,751 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:08,753 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10400000 Position:= 10200000
+2012-07-30 18:10:13,750 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:13,752 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10600000 Position:= 10400000
+2012-07-30 18:10:18,751 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:18,753 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 10800000 Position:= 10600000
+2012-07-30 18:10:23,553 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:23,555 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 11000000 Position:= 10800000
+2012-07-30 18:10:28,577 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:33,799 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 84465
+
+2012-07-30 18:10:33,801 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+250 2.1.5 Recipient OK
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:10:33,802 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 18:10:38,597 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:10:38,601 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\BruesselWikipediaUnverschluesselt.pdf.eml
+2012-07-30 18:10:38,602 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:10:43,613 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 84465 octets
+
+2012-07-30 18:10:43,615 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:10:59,097 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <990eeee9-57aa-4ff3-a9de-92f748979561@SBS20011JH1.jh4.local> [InternalId=114] Queued mail for delivery
+
+2012-07-30 18:10:59,099 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:10:59,100 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:59,101 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:10:59,119 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:10:59,121 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:11:04,348 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:04,350 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 18:11:09,371 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:09,374 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1000000 Position:= 800000
+2012-07-30 18:11:14,380 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:14,382 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1200000 Position:= 1000000
+2012-07-30 18:11:19,174 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:19,175 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1400000 Position:= 1200000
+2012-07-30 18:11:24,381 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:24,383 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 1600000 Position:= 1400000
+2012-07-30 18:11:29,175 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:34,382 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 177196
+
+2012-07-30 18:11:34,383 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+250 2.1.5 Recipient OK
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:11:34,384 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 18:11:39,165 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:11:39,167 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\GrindelwaldAdobe4KompatibelUnverschlüsselt.pdf.eml
+2012-07-30 18:11:39,189 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:11:44,165 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 177196 octets
+
+2012-07-30 18:11:44,167 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:11:47,314 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <1f88206c-ed09-421f-aa27-3e9607335acb@SBS20011JH1.jh4.local> [InternalId=115] Queued mail for delivery
+
+2012-07-30 18:11:47,316 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:11:47,317 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:47,318 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:11:47,540 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:47,542 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:11:52,348 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:11:52,350 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 800000 Position:= 600000
+2012-07-30 18:11:57,572 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:12:02,588 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 92579
+
+2012-07-30 18:12:02,590 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+250 2.1.5 Recipient OK
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:12:02,590 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 0 LAST
+
+2012-07-30 18:12:07,385 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 200000 octets
+
+2012-07-30 18:12:07,388 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\InterlakenAdobe5KompatibelUnverschluesselt.pdf.eml
+2012-07-30 18:12:07,389 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:12:12,405 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 CHUNK received OK, 92579 octets
+
+2012-07-30 18:12:12,407 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:12:13,177 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <61f416cd-f9e3-4f6f-85fe-c964e61e02b4@SBS20011JH1.jh4.local> [InternalId=116] Queued mail for delivery
+
+2012-07-30 18:12:13,178 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 200000 Position:= 0
+2012-07-30 18:12:13,179 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:12:13,183 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 400000 Position:= 200000
+2012-07-30 18:12:13,400 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 200000
+
+2012-07-30 18:12:13,402 [11] DEBUG MailSendWPF.App [740] [(null)] - BINARYMIME i:= 600000 Position:= 400000
+2012-07-30 18:16:14,079 [9] INFO  MailSendWPF.App [702] [(null)] - Anzahl der Durchläufe: 1
+2012-07-30 18:16:14,105 [9] INFO  MailSendWPF.App [703] [(null)] - Gesamtanzahl der Nachrichten: 13
+2012-07-30 18:16:14,119 [12] INFO  MailSendWPF.App [169] [(null)] - Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25
+2012-07-30 18:16:14,127 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 220 SBS20011JH1.jh4.local Microsoft ESMTP MAIL Service ready at Mon, 30 Jul 2012 18:16:12 +0200
+
+2012-07-30 18:16:14,130 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: EHLO 0.0.0.0
+
+2012-07-30 18:16:14,131 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250-SBS20011JH1.jh4.local Hello [172.30.200.130]
+250-SIZE
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+
+2012-07-30 18:16:14,147 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\1 unverschluesselt 1verschluesselt 1unverschluesselt PDFs.eml
+2012-07-30 18:16:14,158 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:16:14,160 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:16:14,161 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:16:14,162 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:16:14,164 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2679643 LAST
+
+2012-07-30 18:16:26,397 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <ef5df366-a9aa-4d6b-8680-bce3aed6a290@SBS20011JH1.jh4.local> [InternalId=117] Queued mail for delivery
+
+2012-07-30 18:16:26,417 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\2PDF  1 Encrypted 1 UnEncrypted.eml
+2012-07-30 18:16:26,419 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:16:26,420 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:16:26,421 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:16:26,422 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:16:26,422 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2549057 LAST
+
+2012-07-30 18:16:34,728 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <31b6dc3d-6b4e-407f-ae60-bb6a5808d044@SBS20011JH1.jh4.local> [InternalId=118] Queued mail for delivery
+
+2012-07-30 18:16:34,743 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\3 PDF Encrypted.eml
+2012-07-30 18:16:34,744 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:16:34,745 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:16:34,746 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:16:34,747 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:16:34,747 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2025110 LAST
+
+2012-07-30 18:16:56,345 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <e02899b8-7c11-44a5-8cd0-99fa58a82774@SBS20011JH1.jh4.local> [InternalId=119] Queued mail for delivery
+
+2012-07-30 18:16:56,379 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\6 PDFNOTENCRYPTED.eml
+2012-07-30 18:16:56,380 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:16:56,381 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:16:56,382 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:16:56,383 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:16:56,384 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 11084465 LAST
+
+2012-07-30 18:17:11,944 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <6bac9d3a-ab74-4870-a8dc-aee23108d16f@SBS20011JH1.jh4.local> [InternalId=120] Queued mail for delivery
+
+2012-07-30 18:17:11,949 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\BruesselWikipediaUnverschluesselt.pdf.eml
+2012-07-30 18:17:11,950 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:11,951 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:11,952 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:11,953 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:11,953 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 1777196 LAST
+
+2012-07-30 18:17:15,377 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <be4637eb-2a25-4f5a-8daa-30af672652b9@SBS20011JH1.jh4.local> [InternalId=121] Queued mail for delivery
+
+2012-07-30 18:17:15,380 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\GrindelwaldAdobe4KompatibelUnverschlüsselt.pdf.eml
+2012-07-30 18:17:15,402 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:15,404 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:15,405 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:15,406 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:15,407 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 892579 LAST
+
+2012-07-30 18:17:16,255 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <9c0fa931-20d2-48f2-84e5-1731900f3450@SBS20011JH1.jh4.local> [InternalId=122] Queued mail for delivery
+
+2012-07-30 18:17:16,258 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\InterlakenAdobe5KompatibelUnverschluesselt.pdf.eml
+2012-07-30 18:17:16,266 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:16,267 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:16,268 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:16,269 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:16,270 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 719694 LAST
+
+2012-07-30 18:17:17,237 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <b297f921-a98f-49c0-a3da-545eec7653c6@SBS20011JH1.jh4.local> [InternalId=123] Queued mail for delivery
+
+2012-07-30 18:17:17,243 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiAdobe3KompatibelUnverschluesselt.pdf.eml
+2012-07-30 18:17:17,244 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:17,245 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:17,245 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:17,246 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:17,247 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2879964 LAST
+
+2012-07-30 18:17:20,911 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <a25000b2-3254-4f35-b05c-3d20eb3cc10b@SBS20011JH1.jh4.local> [InternalId=124] Queued mail for delivery
+
+2012-07-30 18:17:20,917 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiAdobe4KompatibelUnverschluesselt.pdf.eml
+2012-07-30 18:17:20,919 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:20,919 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:20,920 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:20,921 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:20,922 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2408838 LAST
+
+2012-07-30 18:17:24,397 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <5f6a7c48-c8a2-4640-a6cb-8583594f1ac6@SBS20011JH1.jh4.local> [InternalId=125] Queued mail for delivery
+
+2012-07-30 18:17:24,400 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikipediaVerschluesseltAdobe3Kompatibilitaet.pdf.eml
+2012-07-30 18:17:24,401 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:24,402 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:24,402 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:24,404 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:24,406 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 184868 LAST
+
+2012-07-30 18:17:30,642 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <815c11b9-42be-49d0-b768-076d8efc7e21@SBS20011JH1.jh4.local> [InternalId=126] Queued mail for delivery
+
+2012-07-30 18:17:30,644 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikipediaVerschluesselungAdobe5Kompatibel.pdf.eml
+2012-07-30 18:17:30,647 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:30,650 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:30,652 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:30,655 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:30,655 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 184854 LAST
+
+2012-07-30 18:17:37,358 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <94b4b94e-a501-45e6-bb62-ddea499be650@SBS20011JH1.jh4.local> [InternalId=127] Queued mail for delivery
+
+2012-07-30 18:17:37,363 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomWikiUnverschluesseltAdobe5Kompatibel.pdf.eml
+2012-07-30 18:17:37,365 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:37,366 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:37,367 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:37,367 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:37,368 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 2411688 LAST
+
+2012-07-30 18:17:40,487 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <c0ecb798-56d1-4b9d-97ec-18460d137e0a@SBS20011JH1.jh4.local> [InternalId=128] Queued mail for delivery
+
+2012-07-30 18:17:40,491 [12] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\PDF\RomwikiVerschluesseltePDFAdobe4Kompatibel.pdf.eml
+2012-07-30 18:17:40,495 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:17:40,499 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:17:40,504 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:17:40,507 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:17:40,507 [12] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 1657636 LAST
+
+2012-07-30 18:17:48,445 [12] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <01ef448d-f36f-4c96-aab9-ed1d03789e39@SBS20011JH1.jh4.local> [InternalId=129] Queued mail for delivery
+
+2012-07-30 18:17:48,463 [12] INFO  MailSendWPF.App [1839] [(null)] - Queue is empty and all Mails sent in GetMessage: 13 from: 13
+2012-07-30 18:17:48,475 [12] DEBUG MailSendWPF.App [1259] [(null)] - MailSend.AllMailsSendException: System.InvalidOperationException: Queue empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Queue`1.Dequeue()
+   at MailSendWPF.SelfServer.GetMessage() in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1830
+   at MailSendWPF.SelfServer.SendMessageNew(Object threadContext) in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1095
+2012-07-30 18:17:48,483 [12] INFO  MailSendWPF.App [909] [(null)] - MailSend.AllMailsSendException: System.InvalidOperationException: Queue empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Queue`1.Dequeue()
+   at MailSendWPF.SelfServer.GetMessage() in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1830
+   at MailSendWPF.SelfServer.StartSendNew(Object threadContext) in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 887
+2012-07-30 18:17:48,484 [12] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-07-30 18:18:37,960 [9] INFO  MailSendWPF.App [702] [(null)] - Anzahl der Durchläufe: 1
+2012-07-30 18:18:37,963 [9] INFO  MailSendWPF.App [703] [(null)] - Gesamtanzahl der Nachrichten: 1
+2012-07-30 18:18:37,972 [11] INFO  MailSendWPF.App [169] [(null)] - Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25
+2012-07-30 18:18:37,974 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 220 SBS20011JH1.jh4.local Microsoft ESMTP MAIL Service ready at Mon, 30 Jul 2012 18:18:37 +0200
+
+2012-07-30 18:18:37,996 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: EHLO 0.0.0.0
+
+2012-07-30 18:18:37,997 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250-SBS20011JH1.jh4.local Hello [172.30.200.130]
+250-SIZE
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+
+2012-07-30 18:18:38,068 [11] INFO  MailSendWPF.App [1118] [(null)] - C:\Mails\GrosseMail\Grosse Mail.eml
+2012-07-30 18:18:38,070 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: MAIL FROM: <testuser1@jh1.local> BODY=BINARYMIME
+
+2012-07-30 18:18:38,072 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.0 Sender OK
+
+2012-07-30 18:18:38,074 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: RCPT TO: <administrator2@jh4.local>
+
+2012-07-30 18:18:38,074 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.1.5 Recipient OK
+
+2012-07-30 18:18:38,075 [11] DEBUG MailSendWPF.App [491] [(null)] - [client]: BDAT 48237222 LAST
+
+2012-07-30 18:18:50,792 [11] DEBUG MailSendWPF.App [610] [(null)] - [server]: 250 2.6.0 <9e08ed5f-a0cb-4cc8-a912-3d0f2aca3c4f@SBS20011JH1.jh4.local> [InternalId=130] Queued mail for delivery
+
+2012-07-30 18:18:50,799 [11] INFO  MailSendWPF.App [1839] [(null)] - Queue is empty and all Mails sent in GetMessage: 1 from: 1
+2012-07-30 18:18:50,809 [11] DEBUG MailSendWPF.App [1259] [(null)] - MailSend.AllMailsSendException: System.InvalidOperationException: Queue empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Queue`1.Dequeue()
+   at MailSendWPF.SelfServer.GetMessage() in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1830
+   at MailSendWPF.SelfServer.SendMessageNew(Object threadContext) in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1095
+2012-07-30 18:18:50,818 [11] INFO  MailSendWPF.App [909] [(null)] - MailSend.AllMailsSendException: System.InvalidOperationException: Queue empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Queue`1.Dequeue()
+   at MailSendWPF.SelfServer.GetMessage() in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 1830
+   at MailSendWPF.SelfServer.StartSendNew(Object threadContext) in C:\Downloads\MailSendDev\MailSendWPF\SelfServer.cs:line 887
+2012-07-30 18:18:50,820 [11] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:03:53,531 [10] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:04:15,206 [3] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:04:36,250 [3] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:04:36,267 [3] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:04:36,271 [3] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:05:08,627 [10] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:06:28,026 [11] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:07:31,804 [10] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:08:16,082 [10] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:16:05,337 [9] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:16:30,987 [7] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:16:52,030 [7] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:16:52,049 [7] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:17:13,090 [7] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:17:53,162 [11] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:18:14,289 [13] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:18:48,601 [11] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:20:40,268 [8] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:21:01,309 [8] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:21:01,330 [8] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:21:22,365 [8] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:21:43,414 [8] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:21:43,435 [8] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:21:43,438 [8] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:22:01,071 [11] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:22:23,321 [7] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:22:44,363 [7] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:22:44,383 [7] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:22:44,387 [7] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:26:03,133 [11] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:28:58,990 [12] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:29:20,046 [12] ERROR MailSendWPF.App [1786] [(null)] - MailSendWPF.Server.SmtpException: Cannot connect from: 0.0.0.0:0 to: 172.30.201.12:25 ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.30.201.12:25
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 168
+   --- End of inner exception stack trace ---
+   at MailSendWPF.Server.SelfSmtp.Connect(IPEndPoint endPointSource, IPEndPoint endPointDest) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\Server\SelfSmtp.cs:line 188
+   at MailSendWPF.SelfServer.Connect(Object threadContext) in C:\Users\jhaendle\Documents\Visual Studio 2010\Projects\MailSendLokalServer\trunk\MailSendWPF\SelfServer.cs:line 1786
+2012-08-26 20:29:20,066 [12] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:29:20,068 [12] INFO  MailSendWPF.App [223] [(null)] - ------------------------------------------------------
+
+2012-08-26 20:32:16,963 [11] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:35:29,793 [9] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:37:00,360 [10] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:38:59,850 [10] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:42:07,148 [9] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:44:42,813 [9] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
+2012-08-26 20:48:48,199 [9] ERROR MailSendWPF.App [678] [(null)] - Verzeichnis C:\Mails\GrosseMail\Grosse Mail.eml existiert nicht
